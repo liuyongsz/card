@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 998099160
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a295f54d181461f7621ab9ad8ab02e7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bb618eb3244261613e4d8d0766354dbe
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b958e03edb2b0c479ca9a601562d854, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/LUO/LUO_Skill001.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/luo_skill001.controller
+- ../ClientRes/Windows/assetbundle/luo_skillbody002.png
+- ../ClientRes/Windows/assetbundle/luo_skillbody003.png
+- ../ClientRes/Windows/assetbundle/luo_skillimg001.png
+- ../ClientRes/Windows/assetbundle/luo_skillimg002.png
+- ../ClientRes/Windows/assetbundle/luo_skillimg007.png
+- ../ClientRes/Windows/assetbundle/mask.png

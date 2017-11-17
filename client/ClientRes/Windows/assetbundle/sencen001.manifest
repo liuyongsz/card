@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 1905750690
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e2d8e73e9315b2719674b69c75e0e62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 75c7e8a91cb96464927de6d2fa9fd93d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/secneModel/Sencen001.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/test_0.png
+- ../ClientRes/Windows/assetbundle/sencen001.controller
+- ../ClientRes/Windows/assetbundle/scene_m0001.mat
+- ../ClientRes/Windows/assetbundle/sencen001.fbx
+- ../ClientRes/Windows/assetbundle/sencen_t0001.png
+- ../ClientRes/Windows/assetbundle/sencen_t0002.png
+- ../ClientRes/Windows/assetbundle/sencen_t0003.png
+- ../ClientRes/Windows/assetbundle/sencen_t0004.png
+- ../ClientRes/Windows/assetbundle/sencen_t0005.png
+- ../ClientRes/Windows/assetbundle/sencen_t0006.png
+- ../ClientRes/Windows/assetbundle/sencen_t0007.png
+- ../ClientRes/Windows/assetbundle/sencen_t0008.png
+- ../ClientRes/Windows/assetbundle/sencen_t0009.png
+- ../ClientRes/Windows/assetbundle/sencen_t0010.png
+- ../ClientRes/Windows/assetbundle/sencen_t0011.png
+- ../ClientRes/Windows/assetbundle/sencen_t0012.png
+- ../ClientRes/Windows/assetbundle/sencen_t0013.png
+- ../ClientRes/Windows/assetbundle/sencen_t0014.png
+- ../ClientRes/Windows/assetbundle/sencen_t0015.png
+- ../ClientRes/Windows/assetbundle/sencen_t0016.png
+- ../ClientRes/Windows/assetbundle/sencen_t0017.png

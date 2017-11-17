@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1701080419
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6fe996b6072a9a95f5c7af08237a7998
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiIdle.png
+Dependencies: []

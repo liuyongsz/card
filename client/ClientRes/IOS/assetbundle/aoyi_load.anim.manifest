@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1723281071
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81a009915b563100134c8a348c292efc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2952269c743625a44eda3679e0bf61b8
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Arcane/aoyi_load.anim
+Dependencies: []

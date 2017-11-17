@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3383094028
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af5fe1e6753661e3abfc45753173e145
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Texture/PeicunxiSkill002Img001.png
+Dependencies: []

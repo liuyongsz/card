@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 854391906
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 02133f0d042b65bc3c23ba33ae81b6a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/secneModel/Sprite2D/Sencen_T0016.png
+Dependencies: []

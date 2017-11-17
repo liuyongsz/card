@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3974655947
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d979914b57bd4ffc26e3eed9a46c15c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6ee6a86dc678af46372e2ddc39981c6a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Scene/s_home.unity
+Dependencies: []

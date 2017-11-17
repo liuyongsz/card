@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3691315865
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 47bd72e008e54a54ecbe8ce84ed6ad38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c65e2767630221ebf989e08e1652804b
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect004.controller
+Dependencies:
+- ../ClientRes/IOS/assetbundle/uieffect004_idle.anim
+- ../ClientRes/IOS/assetbundle/uieffect004_load.anim
+- ../ClientRes/IOS/assetbundle/uieffect004_unload.anim

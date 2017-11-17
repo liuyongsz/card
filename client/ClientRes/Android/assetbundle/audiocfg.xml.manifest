@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 987484417
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3edf0dd5d0cbb9e79d4f7eb5e9087a80
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Config/AudioCfg.xml
+Dependencies: []

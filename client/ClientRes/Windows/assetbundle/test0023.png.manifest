@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2078675583
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00690e21274ffb38213f6b56704fa1a1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Texture/test0023.png
+Dependencies: []

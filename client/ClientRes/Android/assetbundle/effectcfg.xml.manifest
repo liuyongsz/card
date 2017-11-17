@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 187506257
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c60555936dabe5f399d642b8e211887
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Config/EffectCfg.xml
+Dependencies: []

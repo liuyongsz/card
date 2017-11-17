@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2178041655
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b2f66b8b9a892d3941e98dc64b94372
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 699dc8d5d6b75a27caa1640a4a8b7c11
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect101_scale.anim
+Dependencies: []

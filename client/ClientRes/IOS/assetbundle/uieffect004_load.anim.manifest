@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1598700933
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a540b0c6778073cb7769303ec50bba48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a39f55d08a6ee6009cb1758abf286db
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect004_load.anim
+Dependencies:
+- ../ClientRes/IOS/assetbundle/uieffect004_2d006.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d007.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d008.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d009.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d010.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d011.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d012.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d013.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d014.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d015.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d016.png

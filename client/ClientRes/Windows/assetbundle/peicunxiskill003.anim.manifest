@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4166368525
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d352b0142059018cd195c4a4eb36e4b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 699dc8d5d6b75a27caa1640a4a8b7c11
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Peichunxi/PeicunxiSkill003.anim
+Dependencies: []

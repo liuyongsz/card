@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1508323099
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 75a05ecea4cb4ef87211e78e6b4124b3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Texture/UIEffcet_T0003.png
+Dependencies: []

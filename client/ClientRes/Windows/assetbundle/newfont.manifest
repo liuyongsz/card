@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 343048713
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 858ecec95d9eda31964d4921e051f3b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4a5977deeea2f89a61e0efec4257b8ee
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Fot/test/New Font.prefab
+Dependencies: []

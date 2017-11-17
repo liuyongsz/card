@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3454923631
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b35c4d1e19e7ff520ffb7174003fc545
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 45fd829bde173ede2d923a3d3c308c49
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Mesh/duobianxingqiuti.FBX
+Dependencies: []

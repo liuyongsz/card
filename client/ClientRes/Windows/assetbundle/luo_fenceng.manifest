@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1328924101
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 20a21bfefcc0997adb68706779839b38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 90c5f198d75fb529b6a3439e6ac85218
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8506a021383ef2740a44e2a89654b80d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2cd77143892d49442aac566325d4a2e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67d4de287b46eb34e83a61e4f9115070, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Test/LUO_fenceng.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/luo_fenceng.atlas.txt
+- ../ClientRes/Windows/assetbundle/luo_fenceng.json.txt
+- ../ClientRes/Windows/assetbundle/luo_fenceng.png

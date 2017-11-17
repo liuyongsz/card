@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2391494611
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 702024790017b3d4bab28489e7562fd3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/LuaBytes/main.lua.bytes
+- Assets/LuaBytes/common/events.lua.bytes
+- Assets/LuaBytes/panels/TestPanel3.lua.bytes
+- Assets/LuaBytes/panels/loginpanel.lua.bytes
+- Assets/LuaBytes/common/eventlib.lua.bytes
+- Assets/LuaBytes/panels/TestPanel.lua.bytes
+- Assets/LuaBytes/panels/TestPanel2.lua.bytes
+- Assets/LuaBytes/common/define.lua.bytes
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3477004080
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5bb203258ec0126f6e8336b7fd5c0bd8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Texture/duobianxingqiuti.png
+Dependencies: []

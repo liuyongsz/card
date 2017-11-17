@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1938773677
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 08a02e6a3fc94704106ba5ae56b1a342
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Sprite2D/fight/UIEffect004_2D028.png
+Dependencies: []

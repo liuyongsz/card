@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 897265735
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab9daed3b9f57d649049ee37881cba67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Materials/UIEffect_M0003.mat
+Dependencies:
+- ../ClientRes/IOS/assetbundle/uieffcet_t0003.png

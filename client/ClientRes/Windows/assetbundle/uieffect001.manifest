@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3523773067
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f75f71808f7118c751a7a5f442bec76c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4b83d39549ec662f10a4c33dc1a29fd7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/UIEffect001.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffect001_idle.anim
+- ../ClientRes/Windows/assetbundle/uieffect_m0001.mat
+- ../ClientRes/Windows/assetbundle/uieffect_m0002.mat
+- ../ClientRes/Windows/assetbundle/uieffect001_2d001.png

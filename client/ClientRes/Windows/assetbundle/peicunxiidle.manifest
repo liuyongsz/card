@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 514031970
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 19c7fa6d907e3f63127fe279ab4ea532
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1707c073b70cec6952f7945a8e48dd0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2cd77143892d49442aac566325d4a2e6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiIdle.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiidle.atlas.txt
+- ../ClientRes/Windows/assetbundle/peicunxiidle.png
+- ../ClientRes/Windows/assetbundle/peicunxiidle.json.txt

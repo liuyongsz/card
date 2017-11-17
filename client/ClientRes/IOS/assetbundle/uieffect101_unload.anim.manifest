@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1475237622
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b14bbb1d622ac6800823a6be6a506ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2952269c743625a44eda3679e0bf61b8
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect101_unload.anim
+Dependencies: []

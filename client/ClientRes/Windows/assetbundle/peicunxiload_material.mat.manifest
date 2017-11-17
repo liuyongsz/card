@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 33009349
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 32ae51cb31c3e332f10e6e4c0f7ef18d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiLoad_Material.mat
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiload.png

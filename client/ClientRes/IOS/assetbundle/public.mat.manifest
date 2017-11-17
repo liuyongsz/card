@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1625331052
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f4b5d5bf96361bfb4483624c916c241
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIAtlas/public.mat
+Dependencies:
+- ../ClientRes/IOS/assetbundle/public.png

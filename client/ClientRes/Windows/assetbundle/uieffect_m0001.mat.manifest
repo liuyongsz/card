@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3346941838
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4e0af5848abfc3f078ad3a4c7bb50a5e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Materials/UIEffect_M0001.mat
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffcet_t0001.jpg

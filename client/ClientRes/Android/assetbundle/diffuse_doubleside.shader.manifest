@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1871619643
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be5377e9e1755a46fde0ded22473e8d0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 80729077cb39806c86b5c10073f074fb
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Shader/Diffuse_DoubleSide.shader
+Dependencies: []

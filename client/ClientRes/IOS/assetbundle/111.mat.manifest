@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3931151463
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0dedba648a960588ca4e2358420df5c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d7c08275c813a4630703081edab8d6bb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Fot/111.mat
+Dependencies: []

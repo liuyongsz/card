@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4284682465
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 694c049c42af4b1de4288783a58256b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Map/test/Materials/test_map.mat
+Dependencies:
+- ../ClientRes/IOS/assetbundle/test_map.jpg

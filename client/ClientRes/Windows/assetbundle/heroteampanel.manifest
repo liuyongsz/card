@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 296487145
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2223a1a80a1c3e25e71df97839e9d7ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6dd2f3ecb89d8136a94ef4089a401302
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5aac7010ca56c4048a5417c54f9985aa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d81807633ea807d4c8e3fff7e10c6000, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2b7845a6450a974e97671b66473e81e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07c4de3b4b6fe9045b059ee627c100df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f58673abf18fa334bbffe3a5b682f103, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a94cc1cc1c6f09e4eb9a6f7223875d0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/heroteampanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/public
+- ../ClientRes/Windows/assetbundle/cardteam
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf
+- ../ClientRes/Windows/assetbundle/test_0.png
+- ../ClientRes/Windows/assetbundle/aoyi_scale.anim

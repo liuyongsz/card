@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 3466065786
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1e880ffde37ae49e9de4dbb17ea5c8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 770f7ad2d53989a309a6930f3745c13a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/UIEffect003.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffect003.controller
+- ../ClientRes/Windows/assetbundle/uieffect_m0003.mat
+- ../ClientRes/Windows/assetbundle/uieffect_m0005.mat
+- ../ClientRes/Windows/assetbundle/uieffect002_2d003.png
+- ../ClientRes/Windows/assetbundle/uieffect002_2d004.png

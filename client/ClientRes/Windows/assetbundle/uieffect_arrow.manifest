@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 381944028
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 55500bb593e5bc95a599ca5572d83e43
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 01ea1e407f4df4c4f5a07c2bc3bb1c82
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a476ff77544451848b2f4b33cd7bbddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/UIEffect_Arrow.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffect004_2d031.png
+- ../ClientRes/Windows/assetbundle/uieffect_arrflu.mat
+- ../ClientRes/Windows/assetbundle/uieffect_arrow.mat
+- ../ClientRes/Windows/assetbundle/test00220003.png

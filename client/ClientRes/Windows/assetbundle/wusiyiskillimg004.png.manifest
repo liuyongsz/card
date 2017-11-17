@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1635631437
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 58d72d2324f3d6b5da933d2b385c6a80
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Wusiyi/WusiyiSkillImg/WusiyiSkillImg004.png
+Dependencies: []

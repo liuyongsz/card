@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 177966441
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 48c1df42dc4520fe1d80e3b95e83e839
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 67b444112da319fea276b441bd9c3798
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Mesh/WusiyiSkillMesh001.FBX
+Dependencies: []

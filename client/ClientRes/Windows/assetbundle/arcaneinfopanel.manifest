@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2203583597
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c3333de6a7554a16255f7d6af3a6e0a6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 57dfd86e67ebf84a93ca25066a1ed4c0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/arcaneinfoPanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/public
+- ../ClientRes/Windows/assetbundle/aoyi.mat
+- ../ClientRes/Windows/assetbundle/cardteam
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf

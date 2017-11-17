@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 733852786
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e84b7868a065093072ac94d0bcef7c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8c96daf43104f16bd58daa117216c2c6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Peichunxi/PeicunxiSkill002_O.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/peicunxiskillbody003.png
+- ../ClientRes/IOS/assetbundle/peicunxiskillbody006.png

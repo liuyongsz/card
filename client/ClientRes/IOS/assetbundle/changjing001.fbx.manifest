@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3329663862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 654c9a85b3cbd71483ac022cf5258397
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f47d2e78a642f6f4f52d67f76b4957c4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/secneModel/changjing001.FBX
+Dependencies:
+- ../ClientRes/IOS/assetbundle/testchangjing.mat

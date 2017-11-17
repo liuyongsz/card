@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3865036240
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 93f13ba2ac4e12e802c2e7077de74cc4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d7c08275c813a4630703081edab8d6bb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/secneModel/Materials/TestChangjing.mat
+- Assets/Res/Model/secneModel/Materials/Materials/TestChangjing.mat
+Dependencies: []

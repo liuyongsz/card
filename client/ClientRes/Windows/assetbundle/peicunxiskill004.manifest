@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 3208127721
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2b805beaa0056c16a293736bf9c935fa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 413dd8d99b10b3b293a4a96df1ba9e8a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b958e03edb2b0c479ca9a601562d854, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Peichunxi/PeicunxiSkill004.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody003.png
+- ../ClientRes/Windows/assetbundle/animation_m0001.mat
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img018.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img019.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img002.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img0000.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img000.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img020.png
+- ../ClientRes/Windows/assetbundle/animation_m0003.mat
+- ../ClientRes/Windows/assetbundle/duobianxingqiuti.fbx
+- ../ClientRes/Windows/assetbundle/peicunxiskill002body001.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody005.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody006.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img005.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img012.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill002img017.png
+- ../ClientRes/Windows/assetbundle/peicunxiskill004.controller

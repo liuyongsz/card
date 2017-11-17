@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 827747583
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b6a15f1cbe73d60841c0cd5970e14dbc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiIdle_Material.mat
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiidle.png

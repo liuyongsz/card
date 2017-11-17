@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 719701483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a74f8d9ab2235823b5d0696673c30356
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 699dc8d5d6b75a27caa1640a4a8b7c11
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect005_idle.anim
+Dependencies: []

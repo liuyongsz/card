@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3898249068
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52871fadc27949b99211e57bdff4a4aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9133de2d66fbf7b0bd925917addbc019
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiIdle_SkeletonData.asset
+Dependencies:
+- ../ClientRes/IOS/assetbundle/peicunxiidle.json
+- ../ClientRes/IOS/assetbundle/peicunxiidle_atlas.asset

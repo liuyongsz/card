@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 669582518
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c84ed6af0698b213d9b38ed9df057e6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 413dd8d99b10b3b293a4a96df1ba9e8a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b958e03edb2b0c479ca9a601562d854, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Wusiyi/WusiyiSkill001.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody004.png
+- ../ClientRes/Windows/assetbundle/animation_m0001.mat
+- ../ClientRes/Windows/assetbundle/animation_m0002.mat
+- ../ClientRes/Windows/assetbundle/wusiyiskillmesh001.fbx
+- ../ClientRes/Windows/assetbundle/wusiyiskillmesh001_1.fbx
+- ../ClientRes/Windows/assetbundle/wusiyiskill001.controller
+- ../ClientRes/Windows/assetbundle/wusiyiskillbody001.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg001.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg0011.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg0012.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg002.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg003.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg004.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg005.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg006.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg007.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg008.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg009.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg010.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg012.png
+- ../ClientRes/Windows/assetbundle/wusiyiskillimg013.png

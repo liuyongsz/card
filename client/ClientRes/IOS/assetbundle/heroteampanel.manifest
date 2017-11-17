@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 4137881785
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 08ff2191a82b70a879811cb6fa291b7e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b4354cd24e43c6a3acb4b4244db13b6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d81807633ea807d4c8e3fff7e10c6000, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ac5060295fbd39b4a88d20d0c83d925e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2b7845a6450a974e97671b66473e81e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07c4de3b4b6fe9045b059ee627c100df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f58673abf18fa334bbffe3a5b682f103, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a94cc1cc1c6f09e4eb9a6f7223875d0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d9ee9adcf574fc42857acfaad9fb89e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/heroteampanel.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/public
+- ../ClientRes/IOS/assetbundle/cardteam
+- ../ClientRes/IOS/assetbundle/ftr_gbk.ttf

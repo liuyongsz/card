@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3199541807
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e97a84d2269f77f8188a979a1c9c3c6f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 13522c28690bb47854ec65b03f91928d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiIdle_Atlas.asset
+Dependencies:
+- ../ClientRes/IOS/assetbundle/peicunxiidle.atlas.txt
+- ../ClientRes/IOS/assetbundle/peicunxiidle_material.mat

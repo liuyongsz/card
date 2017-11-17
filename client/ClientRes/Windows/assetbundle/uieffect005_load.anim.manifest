@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3540777248
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65999ffe8ace51100939341c5565c46f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a39f55d08a6ee6009cb1758abf286db
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect005_load.anim
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffect004_2d006.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d007.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d008.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d009.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d010.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d011.png
+- ../ClientRes/Windows/assetbundle/uieffect005_2d002.png
+- ../ClientRes/Windows/assetbundle/uieffect005_2d003.png
+- ../ClientRes/Windows/assetbundle/uieffect005_2d004.png
+- ../ClientRes/Windows/assetbundle/uieffect005_2d005.png
+- ../ClientRes/Windows/assetbundle/uieffect005_2d006.png

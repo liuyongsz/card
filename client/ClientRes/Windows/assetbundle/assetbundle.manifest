@@ -1,0 +1,1327 @@
+ManifestFileVersion: 0
+CRC: 1569747693
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: diffuse_doubleside.shader
+      Dependencies: {}
+    Info_1:
+      Name: dotweeneditor.xml
+      Dependencies: {}
+    Info_2:
+      Name: readme.txt
+      Dependencies: {}
+    Info_3:
+      Name: assetbundleserverurl.bytes
+      Dependencies: {}
+    Info_4:
+      Name: photon3unity3d.xml
+      Dependencies: {}
+    Info_5:
+      Name: release_history.txt
+      Dependencies: {}
+    Info_6:
+      Name: lidgren.network.xml
+      Dependencies: {}
+    Info_7:
+      Name: dotween.xml
+      Dependencies: {}
+    Info_8:
+      Name: card
+      Dependencies:
+        Dependency_0: card.mat
+    Info_9:
+      Name: fightpanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: fight
+        Dependency_2: ftr_gbk.ttf
+        Dependency_3: test
+        Dependency_4: uieffect001_idle.anim
+        Dependency_5: uieffect_m0001.mat
+        Dependency_6: uieffect_m0002.mat
+        Dependency_7: uieffect001_2d001.png
+    Info_10:
+      Name: test_map
+      Dependencies:
+        Dependency_0: test_map.mat
+    Info_11:
+      Name: public.png
+      Dependencies: {}
+    Info_12:
+      Name: public.mat
+      Dependencies:
+        Dependency_0: public.png
+    Info_13:
+      Name: public
+      Dependencies:
+        Dependency_0: public.mat
+    Info_14:
+      Name: luo_skill001.anim
+      Dependencies:
+        Dependency_0: luo_skillimg002.png
+        Dependency_1: luo_skillimg003.png
+        Dependency_2: luo_skillimg004.png
+        Dependency_3: luo_skillimg005.png
+        Dependency_4: luo_skillimg006.png
+    Info_15:
+      Name: luo_skill001.controller
+      Dependencies:
+        Dependency_0: luo_skill001.anim
+    Info_16:
+      Name: luo_skill001
+      Dependencies:
+        Dependency_0: luo_skill001.controller
+        Dependency_1: luo_skillbody002.png
+        Dependency_2: luo_skillbody003.png
+        Dependency_3: luo_skillimg001.png
+        Dependency_4: luo_skillimg002.png
+        Dependency_5: luo_skillimg007.png
+        Dependency_6: mask.png
+    Info_17:
+      Name: luo_skillbody001.png
+      Dependencies: {}
+    Info_18:
+      Name: luo_skillbody001
+      Dependencies:
+        Dependency_0: luo_skillbody001.png
+    Info_19:
+      Name: luo_skillbody002.png
+      Dependencies: {}
+    Info_20:
+      Name: luo_skillbody002
+      Dependencies:
+        Dependency_0: luo_skillbody002.png
+    Info_21:
+      Name: luo_skillbody003.png
+      Dependencies: {}
+    Info_22:
+      Name: luo_skillbody003
+      Dependencies:
+        Dependency_0: luo_skillbody003.png
+    Info_23:
+      Name: luo_skillimg001.png
+      Dependencies: {}
+    Info_24:
+      Name: luo_skillimg002.png
+      Dependencies: {}
+    Info_25:
+      Name: luo_skillimg003.png
+      Dependencies: {}
+    Info_26:
+      Name: luo_skillimg004.png
+      Dependencies: {}
+    Info_27:
+      Name: luo_skillimg005.png
+      Dependencies: {}
+    Info_28:
+      Name: luo_skillimg006.png
+      Dependencies: {}
+    Info_29:
+      Name: luo_skillimg007.png
+      Dependencies: {}
+    Info_30:
+      Name: mask.png
+      Dependencies: {}
+    Info_31:
+      Name: luo_fenceng.atlas.txt
+      Dependencies: {}
+    Info_32:
+      Name: luo_fenceng.json.txt
+      Dependencies: {}
+    Info_33:
+      Name: luo_fenceng.png
+      Dependencies: {}
+    Info_34:
+      Name: luo_fenceng
+      Dependencies:
+        Dependency_0: luo_fenceng.atlas.txt
+        Dependency_1: luo_fenceng.json.txt
+        Dependency_2: luo_fenceng.png
+    Info_35:
+      Name: s_pvp
+      Dependencies: {}
+    Info_36:
+      Name: card.mat
+      Dependencies:
+        Dependency_0: card.png
+    Info_37:
+      Name: card.png
+      Dependencies: {}
+    Info_38:
+      Name: fight.mat
+      Dependencies:
+        Dependency_0: fight.png
+    Info_39:
+      Name: fight.png
+      Dependencies: {}
+    Info_40:
+      Name: fight
+      Dependencies:
+        Dependency_0: fight.mat
+    Info_41:
+      Name: aoyi.mat
+      Dependencies: {}
+    Info_42:
+      Name: kk.mat
+      Dependencies: {}
+    Info_43:
+      Name: bgui.mat
+      Dependencies:
+        Dependency_0: bgui.png
+    Info_44:
+      Name: bgui.png
+      Dependencies: {}
+    Info_45:
+      Name: bgui
+      Dependencies:
+        Dependency_0: bgui.mat
+    Info_46:
+      Name: cardteam.mat
+      Dependencies:
+        Dependency_0: cardteam.png
+    Info_47:
+      Name: cardteam.png
+      Dependencies: {}
+    Info_48:
+      Name: cardteam
+      Dependencies:
+        Dependency_0: cardteam.mat
+    Info_49:
+      Name: fightrolehppanel
+      Dependencies:
+        Dependency_0: fight
+        Dependency_1: ftr_gbk.ttf
+    Info_50:
+      Name: heroteampanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: cardteam
+        Dependency_2: ftr_gbk.ttf
+        Dependency_3: test_0.png
+        Dependency_4: aoyi_scale.anim
+    Info_51:
+      Name: scrollview
+      Dependencies:
+        Dependency_0: fight
+        Dependency_1: ftr_gbk.ttf
+    Info_52:
+      Name: mainpanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: ftr_gbk.ttf
+    Info_53:
+      Name: loginpanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: ftr_gbk.ttf
+    Info_54:
+      Name: enhancescrollview
+      Dependencies: {}
+    Info_55:
+      Name: fight_choose.mat
+      Dependencies:
+        Dependency_0: fight_choose.png
+    Info_56:
+      Name: fight_choose.png
+      Dependencies: {}
+    Info_57:
+      Name: fight_choose
+      Dependencies:
+        Dependency_0: fight_choose.mat
+    Info_58:
+      Name: vspanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: fight_choose
+        Dependency_2: ftr_gbk.ttf
+    Info_59:
+      Name: peicunxiskillimg003.png
+      Dependencies: {}
+    Info_60:
+      Name: peicunxiskillbody001.png
+      Dependencies: {}
+    Info_61:
+      Name: peicunxiskillbody002.png
+      Dependencies: {}
+    Info_62:
+      Name: peicunxiskillbody003.png
+      Dependencies: {}
+    Info_63:
+      Name: peicunxiskillbody004.png
+      Dependencies: {}
+    Info_64:
+      Name: peicunxiskillimg004.png
+      Dependencies: {}
+    Info_65:
+      Name: peicunxiskillimg008.png
+      Dependencies: {}
+    Info_66:
+      Name: peicunxiskillimg009.png
+      Dependencies: {}
+    Info_67:
+      Name: peicunxiskillimg010.png
+      Dependencies: {}
+    Info_68:
+      Name: peicunxiskillimg011.png
+      Dependencies: {}
+    Info_69:
+      Name: peicunxiskillimg012.png
+      Dependencies: {}
+    Info_70:
+      Name: test_map.jpg
+      Dependencies: {}
+    Info_71:
+      Name: test_map.mat
+      Dependencies:
+        Dependency_0: test_map.jpg
+    Info_72:
+      Name: 111.mat
+      Dependencies: {}
+    Info_73:
+      Name: 111
+      Dependencies: {}
+    Info_74:
+      Name: ftr_gbk.ttf
+      Dependencies: {}
+    Info_75:
+      Name: test.fnt
+      Dependencies: {}
+    Info_76:
+      Name: test
+      Dependencies: {}
+    Info_77:
+      Name: test_0.png
+      Dependencies: {}
+    Info_78:
+      Name: arimo20
+      Dependencies: {}
+    Info_79:
+      Name: newfont
+      Dependencies: {}
+    Info_80:
+      Name: peicunxiskill001.anim
+      Dependencies: {}
+    Info_81:
+      Name: peicunxiskill001.controller
+      Dependencies:
+        Dependency_0: peicunxiskill001.anim
+    Info_82:
+      Name: peicunxiskill002.controller
+      Dependencies:
+        Dependency_0: peicunxiskill002.anim
+    Info_83:
+      Name: peicunxiskill003.controller
+      Dependencies:
+        Dependency_0: peicunxiskill003.anim
+    Info_84:
+      Name: peicunxiskillimg013.png
+      Dependencies: {}
+    Info_85:
+      Name: test_attacked
+      Dependencies:
+        Dependency_0: luo_skillbody002.png
+    Info_86:
+      Name: test_outtween
+      Dependencies:
+        Dependency_0: luo_skillbody003.png
+    Info_87:
+      Name: uieffect001
+      Dependencies:
+        Dependency_0: uieffect001_idle.anim
+        Dependency_1: uieffect_m0001.mat
+        Dependency_2: uieffect_m0002.mat
+        Dependency_3: uieffect001_2d001.png
+    Info_88:
+      Name: uieffect001_idle.anim
+      Dependencies: {}
+    Info_89:
+      Name: uieffect_m0001.mat
+      Dependencies:
+        Dependency_0: uieffcet_t0001.jpg
+    Info_90:
+      Name: uieffect_m0002.mat
+      Dependencies:
+        Dependency_0: uieffcet_t0002.png
+    Info_91:
+      Name: uieffect001_2d001.png
+      Dependencies: {}
+    Info_92:
+      Name: uieffcet_t0001.jpg
+      Dependencies: {}
+    Info_93:
+      Name: uieffcet_t0002.png
+      Dependencies: {}
+    Info_94:
+      Name: promptpanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: ftr_gbk.ttf
+    Info_95:
+      Name: fightroledyhppanel
+      Dependencies:
+        Dependency_0: ftr_gbk.ttf
+    Info_96:
+      Name: aoyiani
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: aoyi.mat
+    Info_97:
+      Name: selectteampanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: cardteam
+        Dependency_2: ftr_gbk.ttf
+    Info_98:
+      Name: arcaneinfopanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: aoyi.mat
+        Dependency_2: cardteam
+        Dependency_3: ftr_gbk.ttf
+    Info_99:
+      Name: selectrolepanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: cardteam
+        Dependency_2: ftr_gbk.ttf
+    Info_100:
+      Name: setheropanel
+      Dependencies:
+        Dependency_0: card
+        Dependency_1: public
+        Dependency_2: aoyi.mat
+        Dependency_3: cardteam
+        Dependency_4: ftr_gbk.ttf
+        Dependency_5: arimo20
+        Dependency_6: aoyi_scale.anim
+        Dependency_7: uieffect101_load.anim
+        Dependency_8: uieffect101_unload.anim
+    Info_101:
+      Name: aoyi_scale.anim
+      Dependencies: {}
+    Info_102:
+      Name: animation_m0001.mat
+      Dependencies: {}
+    Info_103:
+      Name: peicunxiskill001
+      Dependencies:
+        Dependency_0: peicunxiskillimg003.png
+        Dependency_1: peicunxiskillbody001.png
+        Dependency_2: peicunxiskillbody002.png
+        Dependency_3: peicunxiskillbody003.png
+        Dependency_4: peicunxiskillimg004.png
+        Dependency_5: peicunxiskillimg008.png
+        Dependency_6: peicunxiskillimg009.png
+        Dependency_7: peicunxiskillimg010.png
+        Dependency_8: peicunxiskillimg011.png
+        Dependency_9: peicunxiskillimg012.png
+        Dependency_10: peicunxiskill001.controller
+        Dependency_11: peicunxiskillimg013.png
+        Dependency_12: animation_m0001.mat
+    Info_104:
+      Name: peicunxiskillimg014.png
+      Dependencies: {}
+    Info_105:
+      Name: peicunxiidle.atlas.txt
+      Dependencies: {}
+    Info_106:
+      Name: peicunxiidle.png
+      Dependencies: {}
+    Info_107:
+      Name: peicunxiidle_atlas.asset
+      Dependencies:
+        Dependency_0: peicunxiidle.atlas.txt
+        Dependency_1: peicunxiidle_material.mat
+    Info_108:
+      Name: peicunxiidle_material.mat
+      Dependencies:
+        Dependency_0: peicunxiidle.png
+    Info_109:
+      Name: peicunxiload.atlas.txt
+      Dependencies: {}
+    Info_110:
+      Name: peicunxiload.png
+      Dependencies: {}
+    Info_111:
+      Name: peicunxiload_atlas.asset
+      Dependencies:
+        Dependency_0: peicunxiload.atlas.txt
+        Dependency_1: peicunxiload_material.mat
+    Info_112:
+      Name: peicunxiload_material.mat
+      Dependencies:
+        Dependency_0: peicunxiload.png
+    Info_113:
+      Name: uieffect002
+      Dependencies:
+        Dependency_0: uieffect002.controller
+        Dependency_1: uieffect_m0003.mat
+        Dependency_2: uieffect_m0005.mat
+        Dependency_3: uieffect002_2d001.png
+        Dependency_4: uieffect002_2d002.png
+    Info_114:
+      Name: uieffect003
+      Dependencies:
+        Dependency_0: uieffect003.controller
+        Dependency_1: uieffect_m0003.mat
+        Dependency_2: uieffect_m0005.mat
+        Dependency_3: uieffect002_2d003.png
+        Dependency_4: uieffect002_2d004.png
+    Info_115:
+      Name: uieffect002.controller
+      Dependencies:
+        Dependency_0: uieffect002_load.anim
+        Dependency_1: uieffect002_unload.anim
+    Info_116:
+      Name: uieffect002_load.anim
+      Dependencies: {}
+    Info_117:
+      Name: uieffect002_unload.anim
+      Dependencies: {}
+    Info_118:
+      Name: uieffect003.controller
+      Dependencies:
+        Dependency_0: uieffect003_load.anim
+        Dependency_1: uieffect003_unload.anim
+    Info_119:
+      Name: uieffect003_load.anim
+      Dependencies: {}
+    Info_120:
+      Name: uieffect003_unload.anim
+      Dependencies: {}
+    Info_121:
+      Name: uieffect_m0003.mat
+      Dependencies:
+        Dependency_0: uieffcet_t0003.png
+    Info_122:
+      Name: uieffect_m0004.mat
+      Dependencies:
+        Dependency_0: uieffect0010.png
+    Info_123:
+      Name: uieffect_m0005.mat
+      Dependencies: {}
+    Info_124:
+      Name: uieffect002_2d001.png
+      Dependencies: {}
+    Info_125:
+      Name: uieffect002_2d002.png
+      Dependencies: {}
+    Info_126:
+      Name: uieffect002_2d003.png
+      Dependencies: {}
+    Info_127:
+      Name: uieffect002_2d004.png
+      Dependencies: {}
+    Info_128:
+      Name: uieffect004_2d001.png
+      Dependencies: {}
+    Info_129:
+      Name: uieffect004_2d002.png
+      Dependencies: {}
+    Info_130:
+      Name: uieffect004_2d004.png
+      Dependencies: {}
+    Info_131:
+      Name: uieffcet_t0003.png
+      Dependencies: {}
+    Info_132:
+      Name: uieffcet_t0004.png
+      Dependencies: {}
+    Info_133:
+      Name: choosecardpanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: ftr_gbk.ttf
+    Info_134:
+      Name: peicunxiskill002img018.png
+      Dependencies: {}
+    Info_135:
+      Name: uieffcet_t0009.png
+      Dependencies: {}
+    Info_136:
+      Name: peicunxiskill002img001(1).png
+      Dependencies: {}
+    Info_137:
+      Name: peicunxiskill002img001.png
+      Dependencies: {}
+    Info_138:
+      Name: uieffcet_t0006.png
+      Dependencies: {}
+    Info_139:
+      Name: peicunxiskill002img001(2).png
+      Dependencies: {}
+    Info_140:
+      Name: peicunxiskill002img019.png
+      Dependencies: {}
+    Info_141:
+      Name: peicunxiskill002img002.png
+      Dependencies: {}
+    Info_142:
+      Name: wusiyiskilltext003.png
+      Dependencies: {}
+    Info_143:
+      Name: uieffcet_t0008.png
+      Dependencies: {}
+    Info_144:
+      Name: wusiyiskilltext002.png
+      Dependencies: {}
+    Info_145:
+      Name: wusiyiskilltext001.png
+      Dependencies: {}
+    Info_146:
+      Name: uieffcet_t0007.png
+      Dependencies: {}
+    Info_147:
+      Name: uieffcet_t0005.png
+      Dependencies: {}
+    Info_148:
+      Name: duobianxingqiuti.png
+      Dependencies: {}
+    Info_149:
+      Name: peicunxiskill002img0000.png
+      Dependencies: {}
+    Info_150:
+      Name: uieffect0010.png
+      Dependencies: {}
+    Info_151:
+      Name: peicunxiskill002img000.png
+      Dependencies: {}
+    Info_152:
+      Name: peicunxiskill002img020.png
+      Dependencies: {}
+    Info_153:
+      Name: uieffect101_load.anim
+      Dependencies: {}
+    Info_154:
+      Name: uieffect101_scale.anim
+      Dependencies: {}
+    Info_155:
+      Name: peicunxiskill001_o
+      Dependencies:
+        Dependency_0: peicunxiskillbody001.png
+        Dependency_1: peicunxiskillbody003.png
+    Info_156:
+      Name: uieffect101_unload.anim
+      Dependencies: {}
+    Info_157:
+      Name: peicunxiskill002.anim
+      Dependencies: {}
+    Info_158:
+      Name: peicunxiidle
+      Dependencies:
+        Dependency_0: peicunxiidle.atlas.txt
+        Dependency_1: peicunxiidle.png
+        Dependency_2: peicunxiidle.json.txt
+    Info_159:
+      Name: peicunxiload
+      Dependencies:
+        Dependency_0: peicunxiload.atlas.txt
+        Dependency_1: peicunxiload.png
+        Dependency_2: peicunxiload.json.txt
+    Info_160:
+      Name: peicunxiskill002_o
+      Dependencies:
+        Dependency_0: peicunxiskillbody003.png
+        Dependency_1: peicunxiskillbody006.png
+    Info_161:
+      Name: animation_m0002.mat
+      Dependencies:
+        Dependency_0: wusiyiskilltext001.png
+    Info_162:
+      Name: animation_m0003.mat
+      Dependencies:
+        Dependency_0: duobianxingqiuti.png
+    Info_163:
+      Name: animation_m0004.mat
+      Dependencies:
+        Dependency_0: peicunxiskill002img001(1).png
+    Info_164:
+      Name: animation_m0005.mat
+      Dependencies:
+        Dependency_0: peicunxiskill002img001.png
+    Info_165:
+      Name: animation_m0006.mat
+      Dependencies:
+        Dependency_0: peicunxiskill002img001(2).png
+    Info_166:
+      Name: duobianxingqiuti.fbx
+      Dependencies: {}
+    Info_167:
+      Name: wusiyiskillmesh001.fbx
+      Dependencies:
+        Dependency_0: 111.mat
+    Info_168:
+      Name: wusiyiskillmesh001_1.fbx
+      Dependencies:
+        Dependency_0: 111.mat
+    Info_169:
+      Name: peicunxiskill002body001.png
+      Dependencies: {}
+    Info_170:
+      Name: peicunxiskillbody005.png
+      Dependencies: {}
+    Info_171:
+      Name: peicunxiskillbody006.png
+      Dependencies: {}
+    Info_172:
+      Name: peicunxiskill002img005.png
+      Dependencies: {}
+    Info_173:
+      Name: peicunxiskill002img012.png
+      Dependencies: {}
+    Info_174:
+      Name: peicunxiskill002img017.png
+      Dependencies: {}
+    Info_175:
+      Name: wusiyiskill001.anim
+      Dependencies: {}
+    Info_176:
+      Name: wusiyiskill001.controller
+      Dependencies:
+        Dependency_0: wusiyiskill001.anim
+    Info_177:
+      Name: wusiyiskillbody001.png
+      Dependencies: {}
+    Info_178:
+      Name: wusiyiskillimg001.png
+      Dependencies: {}
+    Info_179:
+      Name: wusiyiskillimg0011.png
+      Dependencies: {}
+    Info_180:
+      Name: wusiyiskillimg0012.png
+      Dependencies: {}
+    Info_181:
+      Name: wusiyiskillimg002.png
+      Dependencies: {}
+    Info_182:
+      Name: wusiyiskillimg003.png
+      Dependencies: {}
+    Info_183:
+      Name: wusiyiskillimg004.png
+      Dependencies: {}
+    Info_184:
+      Name: wusiyiskillimg005.png
+      Dependencies: {}
+    Info_185:
+      Name: wusiyiskillimg006.png
+      Dependencies: {}
+    Info_186:
+      Name: wusiyiskillimg007.png
+      Dependencies: {}
+    Info_187:
+      Name: wusiyiskillimg008.png
+      Dependencies: {}
+    Info_188:
+      Name: wusiyiskillimg009.png
+      Dependencies: {}
+    Info_189:
+      Name: wusiyiskillimg010.png
+      Dependencies: {}
+    Info_190:
+      Name: wusiyiskillimg011.png
+      Dependencies: {}
+    Info_191:
+      Name: wusiyiskillimg012.png
+      Dependencies: {}
+    Info_192:
+      Name: wusiyiskillimg013.png
+      Dependencies: {}
+    Info_193:
+      Name: uieffect004
+      Dependencies:
+        Dependency_0: uieffect_m0005.mat
+        Dependency_1: uieffect004_2d001.png
+        Dependency_2: uieffect004_2d002.png
+        Dependency_3: uieffect004_2d004.png
+        Dependency_4: uieffect004.controller
+        Dependency_5: uieffect_m0006.mat
+        Dependency_6: uieffect004_2d005.png
+        Dependency_7: uieffect004_2d008.png
+        Dependency_8: uieffect004_2d012.png
+        Dependency_9: uieffect004_2d017.png
+        Dependency_10: uieffect004_2d018.png
+        Dependency_11: uieffect004_2d019.png
+        Dependency_12: uieffect004_2d031.png
+    Info_194:
+      Name: uieffect005
+      Dependencies:
+        Dependency_0: uieffect_m0005.mat
+        Dependency_1: uieffect004_2d001.png
+        Dependency_2: uieffect004_2d004.png
+        Dependency_3: uieffect005.controller
+        Dependency_4: uieffect004_2d005.png
+        Dependency_5: uieffect004_2d008.png
+        Dependency_6: uieffect004_2d017.png
+        Dependency_7: uieffect004_2d018.png
+        Dependency_8: uieffect004_2d019.png
+        Dependency_9: uieffect004_2d031.png
+        Dependency_10: uieffect005_2d001.png
+        Dependency_11: uieffect005_2d003.png
+        Dependency_12: uieffect005_2d007.png
+    Info_195:
+      Name: uieffect006
+      Dependencies:
+        Dependency_0: uieffect_m0004.mat
+        Dependency_1: uieffect006.controller
+        Dependency_2: uieffect_m0007.mat
+        Dependency_3: uieffect_m0008.mat
+        Dependency_4: uieffect_mesh0001.fbx
+        Dependency_5: uieffect006_2d001.png
+        Dependency_6: uieffect006_2d004.png
+        Dependency_7: uieffect006_2d005.png
+        Dependency_8: uieffect006_2d006.png
+    Info_196:
+      Name: uieffect101
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: aoyi.mat
+    Info_197:
+      Name: uieffect004load.anim
+      Dependencies: {}
+    Info_198:
+      Name: uieffect004unload.anim
+      Dependencies: {}
+    Info_199:
+      Name: uieffect004.controller
+      Dependencies:
+        Dependency_0: uieffect004_idle.anim
+        Dependency_1: uieffect004_load.anim
+        Dependency_2: uieffect004_unload.anim
+    Info_200:
+      Name: uieffect004_idle.anim
+      Dependencies: {}
+    Info_201:
+      Name: uieffect004_load.anim
+      Dependencies:
+        Dependency_0: uieffect004_2d006.png
+        Dependency_1: uieffect004_2d007.png
+        Dependency_2: uieffect004_2d008.png
+        Dependency_3: uieffect004_2d009.png
+        Dependency_4: uieffect004_2d010.png
+        Dependency_5: uieffect004_2d011.png
+        Dependency_6: uieffect004_2d012.png
+        Dependency_7: uieffect004_2d013.png
+        Dependency_8: uieffect004_2d014.png
+        Dependency_9: uieffect004_2d015.png
+        Dependency_10: uieffect004_2d016.png
+    Info_202:
+      Name: uieffect004_unload.anim
+      Dependencies:
+        Dependency_0: uieffect004_2d019.png
+        Dependency_1: uieffect004_2d020.png
+        Dependency_2: uieffect004_2d021.png
+        Dependency_3: uieffect004_2d023.png
+        Dependency_4: uieffect004_2d024.png
+        Dependency_5: uieffect004_2d025.png
+        Dependency_6: uieffect004_2d026.png
+        Dependency_7: uieffect004_2d028.png
+        Dependency_8: uieffect004_2d029.png
+        Dependency_9: uieffect004_2d030.png
+    Info_203:
+      Name: uieffect005load.anim
+      Dependencies: {}
+    Info_204:
+      Name: uieffect005loading.anim
+      Dependencies: {}
+    Info_205:
+      Name: uieffect005unload.anim
+      Dependencies: {}
+    Info_206:
+      Name: uieffect005.controller
+      Dependencies:
+        Dependency_0: uieffect005_idle.anim
+        Dependency_1: uieffect005_load.anim
+        Dependency_2: uieffect005_unload.anim
+    Info_207:
+      Name: uieffect005_idle.anim
+      Dependencies: {}
+    Info_208:
+      Name: uieffect005_load.anim
+      Dependencies:
+        Dependency_0: uieffect004_2d006.png
+        Dependency_1: uieffect004_2d007.png
+        Dependency_2: uieffect004_2d008.png
+        Dependency_3: uieffect004_2d009.png
+        Dependency_4: uieffect004_2d010.png
+        Dependency_5: uieffect004_2d011.png
+        Dependency_6: uieffect005_2d002.png
+        Dependency_7: uieffect005_2d003.png
+        Dependency_8: uieffect005_2d004.png
+        Dependency_9: uieffect005_2d005.png
+        Dependency_10: uieffect005_2d006.png
+    Info_209:
+      Name: uieffect005_unload.anim
+      Dependencies:
+        Dependency_0: uieffect004_2d019.png
+        Dependency_1: uieffect004_2d020.png
+        Dependency_2: uieffect004_2d021.png
+        Dependency_3: uieffect004_2d023.png
+        Dependency_4: uieffect004_2d024.png
+        Dependency_5: uieffect004_2d025.png
+        Dependency_6: uieffect004_2d026.png
+        Dependency_7: uieffect004_2d028.png
+        Dependency_8: uieffect004_2d029.png
+        Dependency_9: uieffect004_2d030.png
+    Info_210:
+      Name: uieffect006.controller
+      Dependencies:
+        Dependency_0: uieffect006_load.anim
+    Info_211:
+      Name: uieffect006_load.anim
+      Dependencies: {}
+    Info_212:
+      Name: uieffect_m0006.mat
+      Dependencies:
+        Dependency_0: uieffcet_t0006.png
+        Dependency_1: uieffcet_t0005.png
+    Info_213:
+      Name: uieffect_m0007.mat
+      Dependencies:
+        Dependency_0: uieffcet_t0009.png
+        Dependency_1: uieffcet_t0007.png
+    Info_214:
+      Name: uieffect_m0008.mat
+      Dependencies:
+        Dependency_0: uieffcet_t0008.png
+        Dependency_1: uieffcet_t0007.png
+    Info_215:
+      Name: uieffect_mesh0001.fbx
+      Dependencies:
+        Dependency_0: noname.mat
+    Info_216:
+      Name: uieffect004_2d005.png
+      Dependencies: {}
+    Info_217:
+      Name: uieffect004_2d006.png
+      Dependencies: {}
+    Info_218:
+      Name: uieffect004_2d007.png
+      Dependencies: {}
+    Info_219:
+      Name: uieffect004_2d008.png
+      Dependencies: {}
+    Info_220:
+      Name: uieffect004_2d009.png
+      Dependencies: {}
+    Info_221:
+      Name: uieffect004_2d010.png
+      Dependencies: {}
+    Info_222:
+      Name: uieffect004_2d011.png
+      Dependencies: {}
+    Info_223:
+      Name: uieffect004_2d012.png
+      Dependencies: {}
+    Info_224:
+      Name: uieffect004_2d013.png
+      Dependencies: {}
+    Info_225:
+      Name: uieffect004_2d014.png
+      Dependencies: {}
+    Info_226:
+      Name: uieffect004_2d015.png
+      Dependencies: {}
+    Info_227:
+      Name: uieffect004_2d016.png
+      Dependencies: {}
+    Info_228:
+      Name: uieffect004_2d017.png
+      Dependencies: {}
+    Info_229:
+      Name: uieffect004_2d018.png
+      Dependencies: {}
+    Info_230:
+      Name: uieffect004_2d019.png
+      Dependencies: {}
+    Info_231:
+      Name: uieffect004_2d020.png
+      Dependencies: {}
+    Info_232:
+      Name: uieffect004_2d021.png
+      Dependencies: {}
+    Info_233:
+      Name: uieffect004_2d022.png
+      Dependencies: {}
+    Info_234:
+      Name: uieffect004_2d023.png
+      Dependencies: {}
+    Info_235:
+      Name: uieffect004_2d024.png
+      Dependencies: {}
+    Info_236:
+      Name: uieffect004_2d025.png
+      Dependencies: {}
+    Info_237:
+      Name: uieffect004_2d026.png
+      Dependencies: {}
+    Info_238:
+      Name: uieffect004_2d027.png
+      Dependencies: {}
+    Info_239:
+      Name: uieffect004_2d028.png
+      Dependencies: {}
+    Info_240:
+      Name: uieffect004_2d029.png
+      Dependencies: {}
+    Info_241:
+      Name: uieffect004_2d030.png
+      Dependencies: {}
+    Info_242:
+      Name: uieffect004_2d031.png
+      Dependencies: {}
+    Info_243:
+      Name: uieffect005_2d001.png
+      Dependencies: {}
+    Info_244:
+      Name: uieffect005_2d002.png
+      Dependencies: {}
+    Info_245:
+      Name: uieffect005_2d003.png
+      Dependencies: {}
+    Info_246:
+      Name: uieffect005_2d004.png
+      Dependencies: {}
+    Info_247:
+      Name: uieffect005_2d005.png
+      Dependencies: {}
+    Info_248:
+      Name: uieffect005_2d006.png
+      Dependencies: {}
+    Info_249:
+      Name: uieffect005_2d007.png
+      Dependencies: {}
+    Info_250:
+      Name: uieffect006_2d001.png
+      Dependencies: {}
+    Info_251:
+      Name: uieffect006_2d002.png
+      Dependencies: {}
+    Info_252:
+      Name: uieffect006_2d003.png
+      Dependencies: {}
+    Info_253:
+      Name: uieffect006_2d004.png
+      Dependencies: {}
+    Info_254:
+      Name: uieffect006_2d005.png
+      Dependencies: {}
+    Info_255:
+      Name: uieffect006_2d006.png
+      Dependencies: {}
+    Info_256:
+      Name: uieffect_arrow
+      Dependencies:
+        Dependency_0: uieffect004_2d031.png
+        Dependency_1: uieffect_arrflu.mat
+        Dependency_2: uieffect_arrow.mat
+        Dependency_3: test00220003.png
+    Info_257:
+      Name: uieffect_arrflu.mat
+      Dependencies:
+        Dependency_0: test0023.png
+        Dependency_1: test0024.png
+    Info_258:
+      Name: uieffect_arrow.mat
+      Dependencies: {}
+    Info_259:
+      Name: noname.mat
+      Dependencies: {}
+    Info_260:
+      Name: test00220003.png
+      Dependencies: {}
+    Info_261:
+      Name: test0023.png
+      Dependencies: {}
+    Info_262:
+      Name: test0024.png
+      Dependencies: {}
+    Info_263:
+      Name: s_home
+      Dependencies: {}
+    Info_264:
+      Name: peicunxiskill000.controller
+      Dependencies:
+        Dependency_0: peicunxiskill002.anim
+    Info_265:
+      Name: peicunxiskill000
+      Dependencies:
+        Dependency_0: peicunxiskillbody003.png
+        Dependency_1: animation_m0001.mat
+        Dependency_2: peicunxiskill002img018.png
+        Dependency_3: peicunxiskill002img019.png
+        Dependency_4: peicunxiskill002img002.png
+        Dependency_5: peicunxiskill002img0000.png
+        Dependency_6: peicunxiskill002img000.png
+        Dependency_7: peicunxiskill002img020.png
+        Dependency_8: animation_m0003.mat
+        Dependency_9: duobianxingqiuti.fbx
+        Dependency_10: peicunxiskill002body001.png
+        Dependency_11: peicunxiskillbody006.png
+        Dependency_12: peicunxiskill002img005.png
+        Dependency_13: peicunxiskill002img012.png
+        Dependency_14: peicunxiskill002img017.png
+        Dependency_15: peicunxiskill000.controller
+    Info_266:
+      Name: peicunxiskill002
+      Dependencies:
+        Dependency_0: peicunxiskillbody003.png
+        Dependency_1: peicunxiskillbody004.png
+        Dependency_2: peicunxiskill002.controller
+        Dependency_3: animation_m0001.mat
+        Dependency_4: peicunxiskill002img018.png
+        Dependency_5: peicunxiskill002img019.png
+        Dependency_6: peicunxiskill002img002.png
+        Dependency_7: peicunxiskill002img0000.png
+        Dependency_8: peicunxiskill002img000.png
+        Dependency_9: peicunxiskill002img020.png
+        Dependency_10: animation_m0003.mat
+        Dependency_11: duobianxingqiuti.fbx
+        Dependency_12: peicunxiskill002body001.png
+        Dependency_13: peicunxiskillbody006.png
+        Dependency_14: peicunxiskill002img005.png
+        Dependency_15: peicunxiskill002img012.png
+        Dependency_16: peicunxiskill002img017.png
+    Info_267:
+      Name: peicunxiskill003.anim
+      Dependencies: {}
+    Info_268:
+      Name: peicunxiskill003
+      Dependencies:
+        Dependency_0: peicunxiskillimg003.png
+        Dependency_1: peicunxiskillbody001.png
+        Dependency_2: peicunxiskillbody002.png
+        Dependency_3: peicunxiskillbody003.png
+        Dependency_4: peicunxiskillbody004.png
+        Dependency_5: peicunxiskillimg004.png
+        Dependency_6: peicunxiskillimg008.png
+        Dependency_7: peicunxiskillimg009.png
+        Dependency_8: peicunxiskillimg010.png
+        Dependency_9: peicunxiskillimg011.png
+        Dependency_10: peicunxiskillimg012.png
+        Dependency_11: peicunxiskill003.controller
+        Dependency_12: peicunxiskillimg013.png
+        Dependency_13: animation_m0001.mat
+    Info_269:
+      Name: peicunxiskill004.anim
+      Dependencies: {}
+    Info_270:
+      Name: peicunxiskill004.controller
+      Dependencies:
+        Dependency_0: peicunxiskill004.anim
+    Info_271:
+      Name: peicunxiskill004
+      Dependencies:
+        Dependency_0: peicunxiskillbody003.png
+        Dependency_1: animation_m0001.mat
+        Dependency_2: peicunxiskill002img018.png
+        Dependency_3: peicunxiskill002img019.png
+        Dependency_4: peicunxiskill002img002.png
+        Dependency_5: peicunxiskill002img0000.png
+        Dependency_6: peicunxiskill002img000.png
+        Dependency_7: peicunxiskill002img020.png
+        Dependency_8: animation_m0003.mat
+        Dependency_9: duobianxingqiuti.fbx
+        Dependency_10: peicunxiskill002body001.png
+        Dependency_11: peicunxiskillbody005.png
+        Dependency_12: peicunxiskillbody006.png
+        Dependency_13: peicunxiskill002img005.png
+        Dependency_14: peicunxiskill002img012.png
+        Dependency_15: peicunxiskill002img017.png
+        Dependency_16: peicunxiskill004.controller
+    Info_272:
+      Name: peicunxiskill005.anim
+      Dependencies: {}
+    Info_273:
+      Name: peicunxiskill005.controller
+      Dependencies:
+        Dependency_0: peicunxiskill005.anim
+    Info_274:
+      Name: peicunxiskill005
+      Dependencies:
+        Dependency_0: peicunxiskillimg003.png
+        Dependency_1: peicunxiskillbody001.png
+        Dependency_2: peicunxiskillbody002.png
+        Dependency_3: peicunxiskillbody003.png
+        Dependency_4: peicunxiskillbody004.png
+        Dependency_5: peicunxiskillimg004.png
+        Dependency_6: peicunxiskillimg008.png
+        Dependency_7: peicunxiskillimg009.png
+        Dependency_8: peicunxiskillimg010.png
+        Dependency_9: peicunxiskillimg011.png
+        Dependency_10: peicunxiskillimg012.png
+        Dependency_11: peicunxiskillimg013.png
+        Dependency_12: animation_m0001.mat
+        Dependency_13: peicunxiskill005.controller
+    Info_275:
+      Name: peicunxiskill006.anim
+      Dependencies: {}
+    Info_276:
+      Name: peicunxiskill006.controller
+      Dependencies:
+        Dependency_0: peicunxiskill006.anim
+    Info_277:
+      Name: peicunxiskill006
+      Dependencies:
+        Dependency_0: peicunxiskillbody003.png
+        Dependency_1: animation_m0001.mat
+        Dependency_2: peicunxiskill002img018.png
+        Dependency_3: peicunxiskill002img019.png
+        Dependency_4: peicunxiskill002img002.png
+        Dependency_5: peicunxiskill002img0000.png
+        Dependency_6: peicunxiskill002img000.png
+        Dependency_7: peicunxiskill002img020.png
+        Dependency_8: animation_m0003.mat
+        Dependency_9: duobianxingqiuti.fbx
+        Dependency_10: peicunxiskill002body001.png
+        Dependency_11: peicunxiskillbody005.png
+        Dependency_12: peicunxiskillbody006.png
+        Dependency_13: peicunxiskill002img005.png
+        Dependency_14: peicunxiskill002img012.png
+        Dependency_15: peicunxiskill002img017.png
+        Dependency_16: peicunxiskill006.controller
+    Info_278:
+      Name: wusiyiskillbody002.png
+      Dependencies: {}
+    Info_279:
+      Name: sencen001
+      Dependencies:
+        Dependency_0: test_0.png
+        Dependency_1: sencen001.controller
+        Dependency_2: scene_m0001.mat
+        Dependency_3: sencen001.fbx
+        Dependency_4: sencen_t0001.png
+        Dependency_5: sencen_t0002.png
+        Dependency_6: sencen_t0003.png
+        Dependency_7: sencen_t0004.png
+        Dependency_8: sencen_t0005.png
+        Dependency_9: sencen_t0006.png
+        Dependency_10: sencen_t0007.png
+        Dependency_11: sencen_t0008.png
+        Dependency_12: sencen_t0009.png
+        Dependency_13: sencen_t0010.png
+        Dependency_14: sencen_t0011.png
+        Dependency_15: sencen_t0012.png
+        Dependency_16: sencen_t0013.png
+        Dependency_17: sencen_t0014.png
+        Dependency_18: sencen_t0015.png
+        Dependency_19: sencen_t0016.png
+        Dependency_20: sencen_t0017.png
+    Info_280:
+      Name: sencen001.anim
+      Dependencies: {}
+    Info_281:
+      Name: sencen001.controller
+      Dependencies:
+        Dependency_0: sencen001.anim
+    Info_282:
+      Name: scene_m0001.mat
+      Dependencies:
+        Dependency_0: test0029.png
+    Info_283:
+      Name: sencen001.fbx
+      Dependencies:
+        Dependency_0: noname.mat
+    Info_284:
+      Name: sencen_t0001.png
+      Dependencies: {}
+    Info_285:
+      Name: sencen_t0002.png
+      Dependencies: {}
+    Info_286:
+      Name: sencen_t0003.png
+      Dependencies: {}
+    Info_287:
+      Name: sencen_t0004.png
+      Dependencies: {}
+    Info_288:
+      Name: sencen_t0005.png
+      Dependencies: {}
+    Info_289:
+      Name: sencen_t0006.png
+      Dependencies: {}
+    Info_290:
+      Name: sencen_t0007.png
+      Dependencies: {}
+    Info_291:
+      Name: sencen_t0008.png
+      Dependencies: {}
+    Info_292:
+      Name: sencen_t0009.png
+      Dependencies: {}
+    Info_293:
+      Name: sencen_t0010.png
+      Dependencies: {}
+    Info_294:
+      Name: sencen_t0011.png
+      Dependencies: {}
+    Info_295:
+      Name: sencen_t0012.png
+      Dependencies: {}
+    Info_296:
+      Name: sencen_t0013.png
+      Dependencies: {}
+    Info_297:
+      Name: sencen_t0014.png
+      Dependencies: {}
+    Info_298:
+      Name: sencen_t0015.png
+      Dependencies: {}
+    Info_299:
+      Name: sencen_t0016.png
+      Dependencies: {}
+    Info_300:
+      Name: sencen_t0017.png
+      Dependencies: {}
+    Info_301:
+      Name: test0029.png
+      Dependencies: {}
+    Info_302:
+      Name: changeteamnamepanel
+      Dependencies:
+        Dependency_0: public
+        Dependency_1: cardteam
+        Dependency_2: ftr_gbk.ttf
+    Info_303:
+      Name: cardinfopanel
+      Dependencies:
+        Dependency_0: card
+        Dependency_1: public
+        Dependency_2: ftr_gbk.ttf
+        Dependency_3: arimo20
+    Info_304:
+      Name: linerender
+      Dependencies:
+        Dependency_0: test_0.png
+        Dependency_1: uieffect_arrflu.mat
+    Info_305:
+      Name: wusiyiskill001
+      Dependencies:
+        Dependency_0: peicunxiskillbody004.png
+        Dependency_1: animation_m0001.mat
+        Dependency_2: animation_m0002.mat
+        Dependency_3: wusiyiskillmesh001.fbx
+        Dependency_4: wusiyiskillmesh001_1.fbx
+        Dependency_5: wusiyiskill001.controller
+        Dependency_6: wusiyiskillbody001.png
+        Dependency_7: wusiyiskillimg001.png
+        Dependency_8: wusiyiskillimg0011.png
+        Dependency_9: wusiyiskillimg0012.png
+        Dependency_10: wusiyiskillimg002.png
+        Dependency_11: wusiyiskillimg003.png
+        Dependency_12: wusiyiskillimg004.png
+        Dependency_13: wusiyiskillimg005.png
+        Dependency_14: wusiyiskillimg006.png
+        Dependency_15: wusiyiskillimg007.png
+        Dependency_16: wusiyiskillimg008.png
+        Dependency_17: wusiyiskillimg009.png
+        Dependency_18: wusiyiskillimg010.png
+        Dependency_19: wusiyiskillimg012.png
+        Dependency_20: wusiyiskillimg013.png
+    Info_306:
+      Name: peicunxiidle.json.txt
+      Dependencies: {}
+    Info_307:
+      Name: peicunxiload.json.txt
+      Dependencies: {}

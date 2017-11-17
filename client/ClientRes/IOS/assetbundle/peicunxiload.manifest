@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 297241438
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1df9f7e3a621ffc45f38028ebc0bec30
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00f74fd73af2e86c1ea0e61fb63d71c7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiLoad.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/newskeletondata.asset
+- ../ClientRes/IOS/assetbundle/peicunxiidle_material.mat
+- ../ClientRes/IOS/assetbundle/peicunxiload_material.mat

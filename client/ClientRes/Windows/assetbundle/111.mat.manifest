@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1325602086
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 162e2312eaf1d4606f1613365de4e8b1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Fot/111.mat
+- Assets/Res/Animation/Skill/Mesh/Materials/111.mat
+Dependencies: []

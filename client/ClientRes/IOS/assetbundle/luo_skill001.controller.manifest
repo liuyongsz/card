@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1345329116
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ce70dc1ed9a7cb8fdeb9f6b4b51a7c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c65e2767630221ebf989e08e1652804b
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/LUO/LUO_Skill001.controller
+Dependencies:
+- ../ClientRes/IOS/assetbundle/luo_skill001.anim

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1753217382
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8dcba40b1fde07ba3c42b17c20088c5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 25ea43d2c514b36d5a43fc8990298fed
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2cd77143892d49442aac566325d4a2e6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Test/LUO_fenceng1.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/luo_fenceng.png
+- ../ClientRes/IOS/assetbundle/luo_fenceng.json.txt
+- ../ClientRes/IOS/assetbundle/luo_fenceng.atlas.txt

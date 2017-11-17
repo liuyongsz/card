@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 4174858869
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 29c17a2f7372f2fe471af26d8e242efa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 16abedb4cf6d232805e1a52e7a5ee808
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIAtlas/fight_choose.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/fight_choose.mat

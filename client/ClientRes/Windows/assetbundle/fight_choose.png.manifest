@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1663832977
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5df7143ecaf2254dfe781e7a9b7c96e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIAtlas/fight_choose.png
+Dependencies: []

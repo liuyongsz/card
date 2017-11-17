@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3362169437
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d69047d4a4c008f9f49383132c0ac937
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 16abedb4cf6d232805e1a52e7a5ee808
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIAtlas/cardteam.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/cardteam.mat

@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 53326970
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d6a9b961b7e4e67a2ab9249c7c11fd02
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00f74fd73af2e86c1ea0e61fb63d71c7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/SpineModel/Peicunxi/PeicunxiIdle.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/peicunxiidle_material.mat
+- ../ClientRes/IOS/assetbundle/peicunxiidle_skeletondata.asset

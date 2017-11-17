@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1105769579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 359c68600a89c1912a55c9a771c920c6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: feeddd9806d4e689239d722462706b71
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 842dde89e8e175049a04ae4dfdceb492, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/fightroledyhppanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf

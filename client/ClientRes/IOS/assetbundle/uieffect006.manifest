@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 1838011029
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf2c53b0c4983595b191fb599f23a733
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1b410194ffeccc9352875636d81b9b4d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/UIEffect006.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/uieffect_m0004.mat
+- ../ClientRes/IOS/assetbundle/uieffect006.controller
+- ../ClientRes/IOS/assetbundle/uieffect_m0007.mat
+- ../ClientRes/IOS/assetbundle/uieffect_m0008.mat
+- ../ClientRes/IOS/assetbundle/uieffect_mesh0001.fbx
+- ../ClientRes/IOS/assetbundle/uieffect006_2d001.png
+- ../ClientRes/IOS/assetbundle/uieffect006_2d004.png
+- ../ClientRes/IOS/assetbundle/uieffect006_2d005.png
+- ../ClientRes/IOS/assetbundle/uieffect006_2d006.png

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4110900154
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 572f2414985c5c40ce11491329736725
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 80729077cb39806c86b5c10073f074fb
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Shaders/Transparent Colored ETC1.shader
+Dependencies: []

@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 239388110
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 48941ae8999b47dd97625db1b26b1c41
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a39f55d08a6ee6009cb1758abf286db
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect004_unload.anim
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffect004_2d019.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d020.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d021.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d023.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d024.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d025.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d026.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d028.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d029.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d030.png

@@ -1,0 +1,76 @@
+ManifestFileVersion: 0
+CRC: 2725247520
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea4edb2cb6dce86d6b08f2c196ae5c00
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 24ae1b0d1684eebb3c121e03e4eca225
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d44bc69c2ca5f943b845318866dc1bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ce0b60bae86db374697e0ed923e58e48, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f58673abf18fa334bbffe3a5b682f103, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9bfb5c080dac24cbbc6c9f595ed413, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/fightpanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/public
+- ../ClientRes/Windows/assetbundle/fight
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf
+- ../ClientRes/Windows/assetbundle/test
+- ../ClientRes/Windows/assetbundle/uieffect001_idle.anim
+- ../ClientRes/Windows/assetbundle/uieffect_m0001.mat
+- ../ClientRes/Windows/assetbundle/uieffect_m0002.mat
+- ../ClientRes/Windows/assetbundle/uieffect001_2d001.png

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 92388941
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cbee6c76de13406070e703adcf1a9ba7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 014bd329e0c15f7d1226d0af7da6e4c1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07bd0ef3838958543ad11d48de8241ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ac5060295fbd39b4a88d20d0c83d925e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/ChangeTeamNamePanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/public
+- ../ClientRes/Windows/assetbundle/cardteam
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf

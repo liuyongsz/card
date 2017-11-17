@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 4024628801
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf9e044545ebe82cd59471e330031627
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c65e2767630221ebf989e08e1652804b
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Peichunxi/PeicunxiSkill004.controller
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiskill004.anim

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 4124403556
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 932b744fbc622630f77553a847f55030
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f47d2e78a642f6f4f52d67f76b4957c4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Mesh/yuanhuan0303.FBX
+Dependencies:
+- ../ClientRes/IOS/assetbundle/56565665.mat

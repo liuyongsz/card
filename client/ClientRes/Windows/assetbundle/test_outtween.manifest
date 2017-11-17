@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2127326231
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70904a144566dac34736a2d386525f44
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8c96daf43104f16bd58daa117216c2c6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Model/test_outTween.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/luo_skillbody003.png

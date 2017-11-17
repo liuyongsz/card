@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1249506688
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 55ebddb9a0729ab7fde3cc94ab9994ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/LUO/LUO_SkillBody/LUO_SkillBody003.png
+Dependencies: []

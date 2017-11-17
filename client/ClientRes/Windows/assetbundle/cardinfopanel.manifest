@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 1789721392
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a1eafa638428e1fff25fb62fa7ac53b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a9e3f690d14e4604d3bc7952e346a7c2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 798c1c86ba3e17247ba90b0c0b46f2cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9fdbf367bc76dc9478be33f23ce4fc5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2b7845a6450a974e97671b66473e81e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/CardInfoPanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/card
+- ../ClientRes/Windows/assetbundle/public
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf
+- ../ClientRes/Windows/assetbundle/arimo20

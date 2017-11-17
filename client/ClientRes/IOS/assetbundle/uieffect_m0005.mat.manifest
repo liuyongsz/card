@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4200248028
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db0edf45c80636605b06a04ecbe26808
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d7c08275c813a4630703081edab8d6bb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Materials/UIEffect_M0005.mat
+Dependencies: []

@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2098657360
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb8d32f0d0fc99d69fe79e65afa18ba1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 770f7ad2d53989a309a6930f3745c13a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/UIEffect003.prefab
+Dependencies:
+- ../ClientRes/IOS/assetbundle/uieffect002_2d003.png
+- ../ClientRes/IOS/assetbundle/uieffect002_2d004.png
+- ../ClientRes/IOS/assetbundle/uieffect_m0005.mat
+- ../ClientRes/IOS/assetbundle/uieffect_m0003.mat
+- ../ClientRes/IOS/assetbundle/uieffect003.controller

@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1437244291
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77ba15a9c11eeb528c27091a36f5739d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: afb06b2a3cdb9c28c61fd987a5ced26d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Mesh/PeicunxiSkill002Img001.FBX
+Dependencies:
+- ../ClientRes/IOS/assetbundle/noname.mat

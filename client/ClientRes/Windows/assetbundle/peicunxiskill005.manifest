@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 1944029928
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3214b33cf5101dea67ad928cd7dcd284
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1ba8795a880a9b240f5d78923446d073
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Peichunxi/PeicunxiSkill005.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg003.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody001.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody002.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody003.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillbody004.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg004.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg008.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg009.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg010.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg011.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg012.png
+- ../ClientRes/Windows/assetbundle/peicunxiskillimg013.png
+- ../ClientRes/Windows/assetbundle/animation_m0001.mat
+- ../ClientRes/Windows/assetbundle/peicunxiskill005.controller

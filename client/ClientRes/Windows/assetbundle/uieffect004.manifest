@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 262065046
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ef8eb340fc519c720d03d9733409bb8e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3713f7f908923fb83c2dcbf0e9573e48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/UIEffect004.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/uieffect_m0005.mat
+- ../ClientRes/Windows/assetbundle/uieffect004_2d001.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d002.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d004.png
+- ../ClientRes/Windows/assetbundle/uieffect004.controller
+- ../ClientRes/Windows/assetbundle/uieffect_m0006.mat
+- ../ClientRes/Windows/assetbundle/uieffect004_2d005.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d008.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d012.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d017.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d018.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d019.png
+- ../ClientRes/Windows/assetbundle/uieffect004_2d031.png

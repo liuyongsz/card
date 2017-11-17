@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 887939471
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4c4e64bd6da9fcf61955d16633ffef7e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Texture/Materials/WusiyiSkillText001.mat
+Dependencies:
+- ../ClientRes/IOS/assetbundle/wusiyiskilltext001.png

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 495057016
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4e63f4564f2378d7c64572ec5e7120ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d7c08275c813a4630703081edab8d6bb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Mesh/Materials/No Name.mat
+- Assets/Res/Model/secneModel/Mesh/Materials/No Name.mat
+Dependencies: []

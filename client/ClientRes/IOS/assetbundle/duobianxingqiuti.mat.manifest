@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1828868345
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b69d00e9fee5ab6b233c7d9c170c543
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Material/duobianxingqiuti.mat
+Dependencies:
+- ../ClientRes/IOS/assetbundle/duobianxingqiuti.png

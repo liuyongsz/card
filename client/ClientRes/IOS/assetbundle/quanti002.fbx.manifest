@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 618040252
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c74fc723b5cd30870bccff2cb2601fc6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: afb06b2a3cdb9c28c61fd987a5ced26d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Animation/Skill/Mesh/quanti 002.FBX
+Dependencies:
+- ../ClientRes/IOS/assetbundle/5555555.mat

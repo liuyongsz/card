@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3829767115
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0c1d9a15925a662010a2d683f38e9419
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIAtlas/card.png
+Dependencies: []

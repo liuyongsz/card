@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2980349644
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16161bf9706d1856d8f2887f6bae25e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 699dc8d5d6b75a27caa1640a4a8b7c11
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect006_load.anim
+Dependencies: []

@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 884033098
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: lua.bundle
+      Dependencies: {}
+    Info_1:
+      Name: s_home
+      Dependencies: {}
+    Info_2:
+      Name: s_match1
+      Dependencies: {}
+    Info_3:
+      Name: sample
+      Dependencies: {}
+    Info_4:
+      Name: transparentcoloredetc1.shader
+      Dependencies: {}
+    Info_5:
+      Name: diffuse_doubleside.shader
+      Dependencies: {}
+    Info_6:
+      Name: loginpanel
+      Dependencies: {}
+    Info_7:
+      Name: audiomixer.mixer
+      Dependencies: {}
+    Info_8:
+      Name: dotweeneditor.xml
+      Dependencies: {}
+    Info_9:
+      Name: readme.txt
+      Dependencies: {}
+    Info_10:
+      Name: assetbundleserverurl.bytes
+      Dependencies: {}
+    Info_11:
+      Name: photon3unity3d.xml
+      Dependencies: {}
+    Info_12:
+      Name: release_history.txt
+      Dependencies: {}
+    Info_13:
+      Name: lidgren.network.xml
+      Dependencies: {}
+    Info_14:
+      Name: dotween.xml
+      Dependencies: {}
+    Info_15:
+      Name: audiocfg.xml
+      Dependencies: {}
+    Info_16:
+      Name: effectcfg.xml
+      Dependencies: {}
+    Info_17:
+      Name: luatestpanel
+      Dependencies: {}

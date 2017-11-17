@@ -1,0 +1,83 @@
+ManifestFileVersion: 0
+CRC: 849411565
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 94a19b29f12a3297a107fe4fa20d1d3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 36980112a4eec1559a6558f109706e91
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f1056d12f6843d4d840385d54bc2d8b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d81807633ea807d4c8e3fff7e10c6000, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 798c1c86ba3e17247ba90b0c0b46f2cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 446d504799d99174383957fca80713c8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ac5060295fbd39b4a88d20d0c83d925e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2b7845a6450a974e97671b66473e81e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be10cbaaf1096094ca8285024d49002e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07c4de3b4b6fe9045b059ee627c100df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f58673abf18fa334bbffe3a5b682f103, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5377432c7ab4bec4d8bb961ba5c2a06f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a242348e577d09b4e8c6fc1cd5cd82ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b62c19eeb7a19b244b59ef8afb206314, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIPrefab/setheropanel.prefab
+Dependencies:
+- ../ClientRes/Windows/assetbundle/card
+- ../ClientRes/Windows/assetbundle/public
+- ../ClientRes/Windows/assetbundle/aoyi.mat
+- ../ClientRes/Windows/assetbundle/cardteam
+- ../ClientRes/Windows/assetbundle/ftr_gbk.ttf
+- ../ClientRes/Windows/assetbundle/arimo20
+- ../ClientRes/Windows/assetbundle/aoyi_scale.anim
+- ../ClientRes/Windows/assetbundle/uieffect101_load.anim
+- ../ClientRes/Windows/assetbundle/uieffect101_unload.anim

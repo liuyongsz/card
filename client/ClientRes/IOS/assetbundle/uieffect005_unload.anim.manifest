@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3383394481
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ae816b66fb6647b89dc10b7a64d1fbc0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a39f55d08a6ee6009cb1758abf286db
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/UIEffect/Animation/UIEffect005_unload.anim
+Dependencies:
+- ../ClientRes/IOS/assetbundle/uieffect004_2d019.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d020.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d021.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d023.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d024.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d025.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d026.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d028.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d029.png
+- ../ClientRes/IOS/assetbundle/uieffect004_2d030.png

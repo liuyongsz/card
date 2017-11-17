@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1645996526
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 76fb61eb52af2f298c44e15f1ada169d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scripts/Plugins/DOTween/DOTween.XML
+Dependencies: []

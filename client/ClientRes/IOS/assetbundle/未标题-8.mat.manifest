@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1322566215
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e35d4ac1d9d4d1ef056a4b2b90dfd2ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d7c08275c813a4630703081edab8d6bb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Res/Animation/Skill/Mesh/Materials/\u672A\u6807\u9898-8.mat"
+Dependencies: []
