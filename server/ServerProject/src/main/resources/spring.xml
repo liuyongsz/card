@@ -1,0 +1,80 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/lang
+		http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util-4.3.xsd"
+	default-lazy-init="false" default-autowire="byName">	
+	<bean id="serverConfig" class="com.tcg.config.ServerConfig">
+		<property name="port" value="12345" />
+	</bean>
+	<bean id="excelConfig" class="com.tcg.config.ExcelConfig">
+		<property name="path" value="E:\SoftFiles\Work\Program\card\config\" />
+		<property name="packageName" value="com.tcg.data" />
+		<property name="filter">
+			<util:list list-class="java.util.ArrayList">
+                <value>SkillAI</value>
+            </util:list>
+		</property>
+	</bean>
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">  
+		<property name="maxTotal" value="1000"/> <!-- 控制一个pool可分配多少个jedis实例 -->
+		<property name="maxIdle" value="200" />   <!-- 控制一个pool最多有多少个状态为idle(空闲)的jedis实例 -->
+		<property name="maxWaitMillis" value="2000" />  <!-- 表示当borrow一个jedis实例时，最大的等待时间，如果超过等待时间，则直接抛出JedisConnectionException -->
+		<property name="testOnBorrow" value="true" /> <!-- 在borrow一个jedis实例时，是否提前进行validate操作；如果为true，则得到的jedis实例均是可用的 -->
+    </bean>  
+    <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" destroy-method="destroy">  
+        <property name="poolConfig" ref="jedisPoolConfig"></property>  
+        <property name="hostName" value="127.0.0.1"></property>  
+        <property name="port" value="7890"></property>
+        <property name="password" value="123456"></property>
+        <property name="timeout" value="15000"></property>  
+        <property name="usePool" value="true"></property>  
+        <property name="database" value="0"></property> 
+    </bean>  
+    <bean id="jedisTemplate" class="org.springframework.data.redis.core.RedisTemplate">  
+        <property name="connectionFactory" ref="jedisConnectionFactory"></property>  
+        <property name="keySerializer">  
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>  
+        </property>  
+        <property name="valueSerializer">  
+            <bean class="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer"/>  
+        </property>
+        <property name="hashKeySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+        </property>
+        <property name="hashValueSerializer">
+            <bean class="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer"/>
+        </property>
+    </bean> 
+    <bean id="stringTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">  
+        <property name="connectionFactory" ref="jedisConnectionFactory"></property>  
+    </bean> 
+    <bean id="integerTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">  
+        <property name="connectionFactory" ref="jedisConnectionFactory"></property>  
+        <property name="keySerializer">  
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>  
+        </property>  
+        <property name="valueSerializer">  
+            <bean class="com.tcg.redis.serializer.IntegerRedisSerializer"/>  
+        </property>
+        <property name="hashKeySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+        </property>
+        <property name="hashValueSerializer">
+            <bean class="com.tcg.redis.serializer.IntegerRedisSerializer"/>
+        </property>
+    </bean>   
+    <context:component-scan base-package="com.tcg.service"/>
+</beans>  
