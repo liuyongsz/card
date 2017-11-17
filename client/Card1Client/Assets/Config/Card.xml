@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object>
+
+	<Property card_id="1001100" res="luo_fenceng" name="剑魂残念" card_type="1" card_type1="1" skill_list="10011001:0;10011002:1" card_num="0"/>
+	<Property card_id="1001101" res="card_1001101" name="岚之刃·影锋" card_type="1" card_type1="1" skill_list="10011011:0;10011012:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001102" res="card_1001102" name="固守射击" card_type="1" card_type1="1" skill_list="10011021:0;10011022:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001103" res="card_1001103" name="影之波动" card_type="1" card_type1="1" skill_list="10011031:0;10011032:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001104" res="card_1001104" name="岚光护语" card_type="1" card_type1="1" skill_list="10011041:0;10011042:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001105" res="card_1001105" name="裂甲飞翼" card_type="1" card_type1="1" skill_list="10011051:0;10011052:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001106" res="card_1001106" name="岚之刃·伪暗" card_type="1" card_type1="1" skill_list="10011061:0;10011062:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001107" res="card_1001107" name="光盾矩阵" card_type="1" card_type1="1" skill_list="10011071:0;10011072:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001108" res="card_1001108" name="黑棺" card_type="1" card_type1="1" skill_list="10011081:0;10011082:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1001109" res="card_1001109" name="精神回溯" card_type="1" card_type1="1" skill_list="10011091:0;10011092:1" death_id="1001100" card_num="3"/>
+	<Property card_id="1002100" res="luo_fenceng" name="电力泄漏" card_type="1" card_type1="1" skill_list="10021001:0;10021002:1" card_num="0"/>
+	<Property card_id="1002101" res="card_1002101" name="MNTF自动导航系统" card_type="1" card_type1="1" skill_list="10021011:0;10021012:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002102" res="card_1002102" name="潜伏狙击" card_type="1" card_type1="1" skill_list="10021021:0;10021022:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002103" res="card_1002103" name="BOOM裂弹" card_type="1" card_type1="1" skill_list="10021031:0;10021032:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002104" res="card_1002104" name="混乱光线" card_type="1" card_type1="1" skill_list="10021041:0;10021042:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002105" res="card_1002105" name="战力增幅器" card_type="1" card_type1="1" skill_list="10021051:0;10021052:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002106" res="card_1002106" name="空膛狙击" card_type="1" card_type1="1" skill_list="10021061:0;10021062:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002107" res="card_1002107" name="自动打击装置" card_type="1" card_type1="1" skill_list="10021071:0;10021072:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002108" res="card_1002108" name="SWF射线发射器" card_type="1" card_type1="1" skill_list="10021081:0;10021082:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1002109" res="card_1002109" name="影像模拟" card_type="1" card_type1="1" skill_list="10021091:0;10021092:1" death_id="1002100" card_num="3"/>
+	<Property card_id="1003100" res="luo_fenceng" name="复仇之矢" card_type="1" card_type1="1" skill_list="10031001:0;10031002:1" card_num="0"/>
+	<Property card_id="1003101" res="card_1003101" name="精准射击" card_type="1" card_type1="1" skill_list="10031011:0;10031012:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003102" res="card_1003102" name="俄里翁之怒" card_type="1" card_type1="1" skill_list="10031021:0;10031022:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003103" res="card_1003103" name="赤色蜂潮" card_type="1" card_type1="1" skill_list="10031031:0;10031032:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003104" res="card_1003104" name="朗基努斯·魔天贯" card_type="1" card_type1="1" skill_list="10031041:0;10031042:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003105" res="card_1003105" name="朗基努斯·雷雀闪" card_type="1" card_type1="1" skill_list="10031051:0;10031052:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003106" res="card_1003106" name="混乱射击" card_type="1" card_type1="1" skill_list="10031061:0;10031062:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003107" res="card_1003107" name="专注庇护" card_type="1" card_type1="1" skill_list="10031071:0;10031072:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003108" res="card_1003108" name="精神协调" card_type="1" card_type1="1" skill_list="10031081:0;10031082:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1003109" res="card_1003109" name="死亡前线" card_type="1" card_type1="1" skill_list="10031091:0;10031092:1" death_id="1003100" card_num="3"/>
+	<Property card_id="1004100" res="luo_fenceng" name="加百列之光" card_type="1" card_type1="1" skill_list="10041001:0;10041002:1" card_num="0"/>
+	<Property card_id="1004101" res="card_1004101" name="一杯热水" card_type="1" card_type1="1" skill_list="10041011:0;10041012:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004102" res="card_1004102" name="浓缩粒子发射器" card_type="1" card_type1="1" skill_list="10041021:0;10041022:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004103" res="card_1004103" name="Vitamin C" card_type="1" card_type1="1" skill_list="10041031:0;10041032:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004104" res="card_1004104" name="蜻蜓浮游枪" card_type="1" card_type1="1" skill_list="10041041:0;10041042:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004105" res="card_1004105" name="清除代码" card_type="1" card_type1="1" skill_list="10041051:0;10041052:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004106" res="card_1004106" name="战地治疗包" card_type="1" card_type1="1" skill_list="10041061:0;10041062:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004107" res="card_1004107" name="血雾硫酸" card_type="1" card_type1="1" skill_list="10041071:0;10041072:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004108" res="card_1004108" name="QTMD萨德反导系统" card_type="1" card_type1="1" skill_list="10041081:0;10041082:1" death_id="1004100" card_num="3"/>
+	<Property card_id="1004109" res="card_1004109" name="邪煞·太一" card_type="1" card_type1="1" skill_list="10041091:0;10041092:1" death_id="1004100" card_num="3"/>
+	</Object>

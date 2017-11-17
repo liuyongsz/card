@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--
+技能动画信息
+-->
+<Object>
+  <Property id="LUO_Skill001" scale="3,3,1" enemyPoint="2.62,-3.94,0" selfPoint="-5.64,-3.76,0" haveEnemy="1" />
+</Object>
