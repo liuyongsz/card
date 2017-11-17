@@ -1,0 +1,429 @@
+
+LUO_fenceng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+078
+  rotate: false
+  xy: 367, 673
+  size: 358, 336
+  orig: 358, 336
+  offset: 0, 0
+  index: -1
+079
+  rotate: false
+  xy: 2, 692
+  size: 363, 317
+  orig: 363, 317
+  offset: 0, 0
+  index: -1
+080
+  rotate: false
+  xy: 360, 384
+  size: 356, 287
+  orig: 356, 287
+  offset: 0, 0
+  index: -1
+081
+  rotate: false
+  xy: 2, 399
+  size: 356, 291
+  orig: 356, 291
+  offset: 0, 0
+  index: -1
+082
+  rotate: false
+  xy: 727, 723
+  size: 295, 286
+  orig: 295, 286
+  offset: 0, 0
+  index: -1
+364
+  rotate: true
+  xy: 349, 2
+  size: 345, 267
+  orig: 345, 267
+  offset: 0, 0
+  index: -1
+367
+  rotate: true
+  xy: 618, 3
+  size: 344, 263
+  orig: 344, 263
+  offset: 0, 0
+  index: -1
+368
+  rotate: false
+  xy: 2, 126
+  size: 345, 271
+  orig: 345, 271
+  offset: 0, 0
+  index: -1
+613
+  rotate: true
+  xy: 718, 349
+  size: 138, 303
+  orig: 138, 303
+  offset: 0, 0
+  index: -1
+621
+  rotate: true
+  xy: 727, 489
+  size: 232, 295
+  orig: 232, 295
+  offset: 0, 0
+  index: -1
+CANKAO
+  rotate: true
+  xy: 2, 9
+  size: 115, 317
+  orig: 115, 317
+  offset: 0, 0
+  index: -1
+
+LUO_fenceng2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+050
+  rotate: true
+  xy: 348, 476
+  size: 280, 343
+  orig: 280, 343
+  offset: 0, 0
+  index: -1
+051
+  rotate: false
+  xy: 348, 758
+  size: 344, 254
+  orig: 344, 254
+  offset: 0, 0
+  index: -1
+052
+  rotate: false
+  xy: 694, 757
+  size: 325, 255
+  orig: 325, 255
+  offset: 0, 0
+  index: -1
+053
+  rotate: false
+  xy: 693, 495
+  size: 313, 260
+  orig: 313, 260
+  offset: 0, 0
+  index: -1
+055
+  rotate: true
+  xy: 693, 249
+  size: 244, 306
+  orig: 244, 306
+  offset: 0, 0
+  index: -1
+075
+  rotate: true
+  xy: 637, 7
+  size: 240, 289
+  orig: 240, 289
+  offset: 0, 0
+  index: -1
+076
+  rotate: true
+  xy: 347, 229
+  size: 245, 288
+  orig: 245, 288
+  offset: 0, 0
+  index: -1
+362
+  rotate: false
+  xy: 2, 222
+  size: 343, 261
+  orig: 343, 261
+  offset: 0, 0
+  index: -1
+363
+  rotate: false
+  xy: 2, 753
+  size: 344, 259
+  orig: 344, 259
+  offset: 0, 0
+  index: -1
+366
+  rotate: false
+  xy: 2, 485
+  size: 343, 266
+  orig: 343, 266
+  offset: 0, 0
+  index: -1
+419
+  rotate: true
+  xy: 297, 5
+  size: 215, 272
+  orig: 215, 272
+  offset: 0, 0
+  index: -1
+622
+  rotate: true
+  xy: 2, 2
+  size: 218, 293
+  orig: 218, 293
+  offset: 0, 0
+  index: -1
+
+LUO_fenceng3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+011
+  rotate: false
+  xy: 557, 156
+  size: 276, 287
+  orig: 276, 287
+  offset: 0, 0
+  index: -1
+047
+  rotate: true
+  xy: 647, 712
+  size: 269, 298
+  orig: 269, 298
+  offset: 0, 0
+  index: -1
+048
+  rotate: false
+  xy: 2, 2
+  size: 266, 299
+  orig: 266, 299
+  offset: 0, 0
+  index: -1
+049
+  rotate: false
+  xy: 2, 647
+  size: 299, 334
+  orig: 299, 334
+  offset: 0, 0
+  index: -1
+054
+  rotate: false
+  xy: 636, 445
+  size: 297, 265
+  orig: 297, 265
+  offset: 0, 0
+  index: -1
+073
+  rotate: false
+  xy: 270, 17
+  size: 285, 289
+  orig: 285, 289
+  offset: 0, 0
+  index: -1
+074
+  rotate: true
+  xy: 303, 510
+  size: 208, 331
+  orig: 208, 331
+  offset: 0, 0
+  index: -1
+077
+  rotate: true
+  xy: 269, 308
+  size: 200, 277
+  orig: 200, 277
+  offset: 0, 0
+  index: -1
+365
+  rotate: false
+  xy: 303, 720
+  size: 342, 261
+  orig: 342, 261
+  offset: 0, 0
+  index: -1
+369
+  rotate: true
+  xy: 2, 303
+  size: 342, 265
+  orig: 342, 265
+  offset: 0, 0
+  index: -1
+614
+  rotate: true
+  xy: 557, 12
+  size: 142, 299
+  orig: 142, 299
+  offset: 0, 0
+  index: -1
+616
+  rotate: false
+  xy: 858, 142
+  size: 153, 301
+  orig: 153, 301
+  offset: 0, 0
+  index: -1
+
+LUO_fenceng4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+000
+  rotate: false
+  xy: 554, 154
+  size: 271, 287
+  orig: 271, 287
+  offset: 0, 0
+  index: -1
+002
+  rotate: false
+  xy: 553, 443
+  size: 272, 287
+  orig: 272, 287
+  offset: 0, 0
+  index: -1
+003
+  rotate: false
+  xy: 279, 154
+  size: 273, 286
+  orig: 273, 286
+  offset: 0, 0
+  index: -1
+005
+  rotate: false
+  xy: 279, 442
+  size: 272, 288
+  orig: 272, 288
+  offset: 0, 0
+  index: -1
+007
+  rotate: false
+  xy: 556, 732
+  size: 273, 287
+  orig: 273, 287
+  offset: 0, 0
+  index: -1
+008
+  rotate: false
+  xy: 2, 732
+  size: 275, 287
+  orig: 275, 287
+  offset: 0, 0
+  index: -1
+009
+  rotate: false
+  xy: 2, 443
+  size: 275, 287
+  orig: 275, 287
+  offset: 0, 0
+  index: -1
+010
+  rotate: false
+  xy: 279, 732
+  size: 275, 287
+  orig: 275, 287
+  offset: 0, 0
+  index: -1
+012
+  rotate: false
+  xy: 2, 154
+  size: 275, 287
+  orig: 275, 287
+  offset: 0, 0
+  index: -1
+615
+  rotate: false
+  xy: 831, 721
+  size: 161, 298
+  orig: 161, 298
+  offset: 0, 0
+  index: -1
+617
+  rotate: true
+  xy: 304, 2
+  size: 150, 298
+  orig: 150, 298
+  offset: 0, 0
+  index: -1
+618
+  rotate: true
+  xy: 2, 2
+  size: 150, 300
+  orig: 150, 300
+  offset: 0, 0
+  index: -1
+619
+  rotate: false
+  xy: 827, 121
+  size: 150, 298
+  orig: 150, 298
+  offset: 0, 0
+  index: -1
+620
+  rotate: false
+  xy: 827, 421
+  size: 154, 298
+  orig: 154, 298
+  offset: 0, 0
+  index: -1
+
+LUO_fenceng5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 549, 581
+  size: 271, 287
+  orig: 271, 287
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 276, 291
+  size: 271, 287
+  orig: 271, 287
+  offset: 0, 0
+  index: -1
+006
+  rotate: false
+  xy: 2, 581
+  size: 272, 287
+  orig: 272, 287
+  offset: 0, 0
+  index: -1
+013
+  rotate: false
+  xy: 2, 292
+  size: 272, 287
+  orig: 272, 287
+  offset: 0, 0
+  index: -1
+014
+  rotate: false
+  xy: 276, 580
+  size: 271, 288
+  orig: 271, 288
+  offset: 0, 0
+  index: -1
+015
+  rotate: false
+  xy: 2, 2
+  size: 271, 288
+  orig: 271, 288
+  offset: 0, 0
+  index: -1
+016
+  rotate: false
+  xy: 549, 292
+  size: 271, 287
+  orig: 271, 287
+  offset: 0, 0
+  index: -1
+017
+  rotate: false
+  xy: 275, 2
+  size: 271, 287
+  orig: 271, 287
+  offset: 0, 0
+  index: -1
