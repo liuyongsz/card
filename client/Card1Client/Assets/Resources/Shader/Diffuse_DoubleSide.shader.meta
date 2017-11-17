@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f1243fed5d774cc4c8299e07fca013c4
+timeCreated: 1473580979
+licenseType: Free
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: diffuse_doubleside.shader
+  assetBundleVariant: 

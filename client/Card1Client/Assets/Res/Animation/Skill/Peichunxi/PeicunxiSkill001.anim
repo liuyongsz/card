@@ -1,0 +1,6647 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PeicunxiSkill001
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 27.400549, y: 66.40008, z: 79.9}
+        inSlope: {x: 0.00027338663, y: 0.00022888182, z: 661.00006}
+        outSlope: {x: 0.00027338663, y: 0.00022888182, z: 661.00006}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 27.40063, y: 66.40015, z: 278.2}
+        inSlope: {x: 0.0002132949, y: 0.000121824196, z: 199.46776}
+        outSlope: {x: 0.0002132949, y: 0.000121824196, z: 199.46776}
+        tangentMode: 0
+      - time: 1.3333334
+        value: {x: 27.40079, y: 66.40016, z: 7.4000006}
+        inSlope: {x: 0.00015320317, y: 0.0000147665705, z: -262.06454}
+        outSlope: {x: 0.00015320317, y: 0.0000147665705, z: -262.06454}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg009
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 31.105806}
+        inSlope: {x: 0, y: 0, z: 172.2546}
+        outSlope: {x: 0, y: 0, z: 172.2546}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0, y: 0, z: 88.524}
+        inSlope: {x: 0, y: 0, z: 14.718956}
+        outSlope: {x: 0, y: 0, z: 14.718956}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 0, y: 0, z: 45.679}
+        inSlope: {x: 0, y: 0, z: -118.46501}
+        outSlope: {x: 0, y: 0, z: -118.46501}
+        tangentMode: 0
+      - time: 1.2333333
+        value: {x: 0, y: 0, z: -10.7890005}
+        inSlope: {x: 0, y: 0, z: -94.113335}
+        outSlope: {x: 0, y: 0, z: -94.113335}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg010
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 58.254, y: -47.513, z: -52.225002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg011 (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 14.151001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: 0, y: 0, z: 14.151001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: -0, z: -4.6890006}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: 0, y: 0, z: 11.025001}
+        inSlope: {x: 0, y: 0, z: -4.6890006}
+        outSlope: {x: 0, y: 0, z: -4.168001}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.00000042688683, y: -0, z: -0}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: 0.27000004, y: 0, z: 0}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 0.008, y: 0.25500003, z: 88.836006}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.76666665
+        value: {x: 0.16800001, y: -0.18400002, z: -47.418003}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.9
+        value: {x: 0.16800001, y: -0.18400002, z: -47.418003}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg012
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 14.151001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0, y: 0, z: 14.151001}
+        inSlope: {x: 0, y: 0, z: 1.3162502}
+        outSlope: {x: 0, y: 0, z: 1.3162502}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: 0, z: 15.906001}
+        inSlope: {x: 0, y: 0, z: 2.6325004}
+        outSlope: {x: 0, y: 0, z: 2.6325004}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 14.151001}
+        inSlope: {x: 0, y: 0, z: 12.053655}
+        outSlope: {x: 0, y: 0, z: 12.053655}
+        tangentMode: 0
+      - time: 1.7333333
+        value: {x: 0, y: 0, z: 35.044003}
+        inSlope: {x: 0, y: 0, z: 12.053655}
+        outSlope: {x: 0, y: 0, z: 12.053655}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 1.2540001}
+        inSlope: {x: 0, y: 0, z: -6.460909}
+        outSlope: {x: 0, y: 0, z: -6.460909}
+        tangentMode: 0
+      - time: 1.4666667
+        value: {x: 0, y: 0, z: -8.222}
+        inSlope: {x: 0, y: 0, z: -6.460909}
+        outSlope: {x: 0, y: 0, z: -6.460909}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (3)
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0.86, y: 0, z: 0}
+        outSlope: {x: 0.86, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 17.449999, y: -8.389999, z: 0}
+        inSlope: {x: 1.2857192, y: 2.1428552, z: 0}
+        outSlope: {x: 1.2857192, y: 2.1428552, z: 0}
+        tangentMode: 0
+      - time: 0.23333333
+        value: {x: 17.75, y: -7.89, z: 0}
+        inSlope: {x: -20.05712, y: -3.278577, z: 0}
+        outSlope: {x: -20.05712, y: -3.278577, z: 0}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: 16.37, y: -8.18, z: 0}
+        inSlope: {x: -18.299982, y: -2.5500064, z: 0}
+        outSlope: {x: -18.299982, y: -2.5500064, z: 0}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 16.53, y: -8.06, z: 0}
+        inSlope: {x: 5.399981, y: 7.9500036, z: 0}
+        outSlope: {x: 5.399981, y: 7.9500036, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 16.73, y: -7.65, z: 0}
+        inSlope: {x: 5.249987, y: 12.850006, z: 0}
+        outSlope: {x: 5.249987, y: 12.850006, z: 0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: 17.18, y: -6.31, z: 0}
+        inSlope: {x: -1.9999969, y: 0.8500023, z: 0}
+        outSlope: {x: -1.9999969, y: 0.8500023, z: 0}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 16.33, y: -7.48, z: 0}
+        inSlope: {x: -6.750002, y: -6.9499984, z: 0}
+        outSlope: {x: -6.750002, y: -6.9499984, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 15.83, y: -7.7, z: 0}
+        inSlope: {x: -4.049998, y: -2.5499988, z: 0}
+        outSlope: {x: -4.049998, y: -2.5499988, z: 0}
+        tangentMode: 0
+      - time: 0.73333335
+        value: {x: 15.52, y: -7.99, z: 0}
+        inSlope: {x: -3.3500113, y: -3.8499994, z: 0}
+        outSlope: {x: -3.3500113, y: -3.8499994, z: 0}
+        tangentMode: 0
+      - time: 0.76666665
+        value: {x: 15.4, y: -8.15, z: 0}
+        inSlope: {x: 28.664963, y: -6.585001, z: 0}
+        outSlope: {x: 28.664963, y: -6.585001, z: 0}
+        tangentMode: 0
+      - time: 0.8
+        value: {x: 17.431, y: -8.429, z: 0}
+        inSlope: {x: 60.929955, y: -8.370002, z: 0}
+        outSlope: {x: 60.929955, y: -8.370002, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/jiguang
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.21, y: 2.77, z: -0.19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: -2.21, y: 2.77, z: -0.19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -2.1931033, y: 0.43448284, z: -0.6827586}
+        tangentMode: 0
+      - time: 1.2333333
+        value: {x: -4.33, y: 3.19, z: -0.85}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.31, y: 2.82, z: -0.24}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: -2.31, y: 2.82, z: -0.24}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 5.2548385, y: -3.280645, z: 2.3032258}
+        tangentMode: 0
+      - time: 1.3333334
+        value: {x: 3.12, y: -0.57, z: 2.14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg009
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.8399997, y: -1.0699999, z: 2.5099998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 4.84, y: -1.07, z: 2.5099998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0.44999957, y: -0, z: -0}
+        tangentMode: 0
+      - time: 1.1333333
+        value: {x: 5.2, y: -1.07, z: 2.5099998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg011
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.24, y: -1.23, z: 2.5099998}
+        inSlope: {x: -0.000002861023, y: 0.00000035762787, z: 0}
+        outSlope: {x: -0.000002861023, y: 0.00000035762787, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 3.239999, y: -1.2299999, z: 2.5099998}
+        inSlope: {x: 3.6666672, y: -0.16666196, z: 0}
+        outSlope: {x: 3.6666672, y: -0.16666196, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 5.44, y: -1.3299972, z: 2.5099998}
+        inSlope: {x: 4.900002, y: -0.34166443, z: 0}
+        outSlope: {x: 4.900002, y: -0.34166443, z: 0}
+        tangentMode: 0
+      - time: 1.2333333
+        value: {x: 6.92, y: -1.54, z: 2.5099998}
+        inSlope: {x: 2.4666667, y: -0.3500046, z: 0}
+        outSlope: {x: 2.4666667, y: -0.3500046, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg010
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.8399982, y: -1.0699984, z: 2.5099998}
+        inSlope: {x: 0.0000063578286, y: -0.0000055631, z: 0}
+        outSlope: {x: 0.0000063578286, y: -0.0000055631, z: 0}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 4.84, y: -1.07, z: 2.5099998}
+        inSlope: {x: 0.23478554, y: -0.00000278155, z: 0}
+        outSlope: {x: 0.23478554, y: -0.00000278155, z: 0}
+        tangentMode: 0
+      - time: 1.0666667
+        value: {x: 5.2, y: -1.07, z: 2.5099998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg011 (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.9499993, y: -7.369998, z: 2.5099998}
+        inSlope: {x: 0.06956474, y: 0, z: 0}
+        outSlope: {x: 2.192306, y: 4.9153805, z: -0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: -3, y: -5.24, z: 2.5099998}
+        inSlope: {x: 2.192306, y: 4.9153805, z: 0}
+        outSlope: {x: -6.66, y: 4.0199995, z: -0}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: -7.44, y: -2.56, z: 2.5099998}
+        inSlope: {x: -6.66, y: 4.0199995, z: 0}
+        outSlope: {x: -3.0637035, y: -2.811111, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.9499993, y: -7.369998, z: 2.5099998}
+        inSlope: {x: 0.06956474, y: 0, z: 0}
+        outSlope: {x: 11.369998, y: 7.6499934, z: -0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -0.16, y: -4.82, z: 2.5099998}
+        inSlope: {x: 11.369998, y: 7.6499934, z: 0}
+        outSlope: {x: -5.94, y: 2.1000001, z: -0}
+        tangentMode: 0
+      - time: 1
+        value: {x: -4.12, y: -3.42, z: 2.5099998}
+        inSlope: {x: -5.94, y: 2.1000001, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.9499993, y: -7.369998, z: 2.5099998}
+        inSlope: {x: 0.06956474, y: 0, z: 0}
+        outSlope: {x: -3.4000008, y: 3.9428542, z: -0}
+        tangentMode: 0
+      - time: 0.7
+        value: {x: -6.33, y: -4.61, z: 2.5099998}
+        inSlope: {x: -3.4000008, y: 3.9428542, z: 0}
+        outSlope: {x: -13.645162, y: 10.219355, z: -0}
+        tangentMode: 0
+      - time: 1.7333333
+        value: {x: -20.43, y: 5.95, z: 2.5099998}
+        inSlope: {x: -13.645162, y: 10.219355, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 8.699996, y: -7.3699956, z: 2.5099998}
+        inSlope: {x: 0.06956474, y: 0, z: 0}
+        outSlope: {x: -9.209988, y: 4.739987, z: -0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 5.63, y: -5.79, z: 2.5099998}
+        inSlope: {x: -9.209988, y: 4.739987, z: 0}
+        outSlope: {x: 5.885294, y: 2.4705882, z: -0}
+        tangentMode: 0
+      - time: 1.4666667
+        value: {x: 12.3, y: -2.99, z: 2.5099998}
+        inSlope: {x: 5.885294, y: 2.4705882, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (3)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 5.47, y: -1.91, z: -0.5599999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.4
+        value: {x: 3.72, y: -1.39, z: -0.5599999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0.90000004, y: -0.13500005, z: -0}
+        tangentMode: 0
+      - time: 1.7333333
+        value: {x: 4.92, y: -1.57, z: -0.5599999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008 (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.54, y: -8.26, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 3.54, y: -8.26, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 4.249999, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 4.39, y: -8.26, z: 0}
+        inSlope: {x: 3.190789, y: 0, z: 0}
+        outSlope: {x: 3.190789, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.1666666
+        value: {x: 5.74, y: -8.26, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Enemy
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.53, y: -8.2, z: 0}
+        inSlope: {x: 0.93000126, y: 0, z: 0}
+        outSlope: {x: 0.93000126, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -6.22, y: -8.2, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -6.166278, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.56666666
+        value: {x: -6.9162173, y: -8.2, z: 0}
+        inSlope: {x: -1.6621786, y: 0, z: 0}
+        outSlope: {x: -1.6621786, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.2666667
+        value: {x: -7.33, y: -8.2, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Me
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.023, y: 4.655, z: 0}
+        inSlope: {x: -0.35700005, y: 0, z: 0}
+        outSlope: {x: -0.35700005, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0.904, y: 4.655, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0.8014311, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Me/PeicunxiSkillBody003
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 5.47, y: -1.91, z: -0.5599999}
+        inSlope: {x: -2.46923, y: -1.1538464, z: 0}
+        outSlope: {x: -2.46923, y: -1.1538464, z: -0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: 4.4, y: -2.41, z: -0.5599999}
+        inSlope: {x: -2.46923, y: -1.1538464, z: 0}
+        outSlope: {x: 3.3642852, y: 0.5357143, z: -0}
+        tangentMode: 0
+      - time: 0.9
+        value: {x: 5.97, y: -2.16, z: -0.5599999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008 (3)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 5.47, y: -1.91, z: -0.5599999}
+        inSlope: {x: -0.5999994, y: 4.1117644, z: 0}
+        outSlope: {x: -0.5999994, y: 4.1117644, z: -0}
+        tangentMode: 0
+      - time: 0.56666666
+        value: {x: 5.13, y: 0.42, z: -0.5599999}
+        inSlope: {x: -0.5999994, y: 4.1117644, z: 0}
+        outSlope: {x: 1.7684207, y: -0, z: -0}
+        tangentMode: 0
+      - time: 1.2
+        value: {x: 6.25, y: 0.42, z: -0.5599999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008 (4)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.98, y: -0.87999994, z: 2.5099998}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: 4.98, y: -0.87999994, z: 2.5099998}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 6.95, y: -0.8799999, z: 2.5099998}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.76666665
+        value: {x: 8.1, y: -0.32, z: 2.5099998}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      - time: 0.9
+        value: {x: 8.1, y: -0.32, z: 2.5099998}
+        inSlope: {x: Infinity, y: Infinity, z: Infinity}
+        outSlope: {x: Infinity, y: Infinity, z: Infinity}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg012
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.137501, y: 1, z: 1.4285713}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.23333333
+        value: {x: 4.137501, y: 1, z: 1.4285713}
+        inSlope: {x: 0, y: -11.7117605, z: 0}
+        outSlope: {x: 0, y: -11.7117605, z: 0}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: 4.137501, y: 0.21921569, z: 1.4285713}
+        inSlope: {x: 0, y: -1.0971851, z: 0}
+        outSlope: {x: 0, y: -1.0971851, z: 0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: 4.137501, y: 3.7574072, z: 1.4285713}
+        inSlope: {x: 0, y: 0.9564018, z: 0}
+        outSlope: {x: 0, y: 0.9564018, z: 0}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 4.137501, y: 1.825772, z: 1.4285713}
+        inSlope: {x: 0, y: -12.224826, z: 0}
+        outSlope: {x: 0, y: -12.224826, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 4.137501, y: 1.3124418, z: 1.4285713}
+        inSlope: {x: 0, y: -5.9804325, z: 0}
+        outSlope: {x: 0, y: -5.9804325, z: 0}
+        tangentMode: 0
+      - time: 0.8
+        value: {x: 4.137501, y: 0.17451482, z: 1.4285713}
+        inSlope: {x: 0, y: -6.8275614, z: 0}
+        outSlope: {x: 0, y: -6.8275614, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/jiguang
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2, y: 2, z: 4.00001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -5.6249995, y: -5.6249995, z: -0}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: 0.5, y: 0.5, z: 4.00001}
+        inSlope: {x: -5.6249995, y: -5.6249995, z: 0}
+        outSlope: {x: 3.6206896, y: 3.6206896, z: -0}
+        tangentMode: 0
+      - time: 1.2333333
+        value: {x: 4, y: 4, z: 4.00001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.3, y: 1.3, z: 4.000013}
+        inSlope: {x: 1.3448273, y: 1.3448273, z: 0}
+        outSlope: {x: -0, y: -0, z: 0}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 1.3, y: 1.3, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0.77419347, y: -0.77419347, z: 0}
+        tangentMode: 0
+      - time: 1.3333334
+        value: {x: 0.5, y: 0.5, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg009
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.2327678, y: 1.1000005, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 1.1, y: 1.1000005, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 4.875, y: 0.74999946, z: 0.63536185}
+        tangentMode: 0
+      - time: 1.1333333
+        value: {x: 5, y: 1.7, z: 1.5082895}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg011
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 10, y: 10, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 10, y: 10, z: 1}
+        inSlope: {x: 19.325802, y: 29.253256, z: 0}
+        outSlope: {x: 19.325802, y: 29.253256, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 21.59548, y: 27.551952, z: 1}
+        inSlope: {x: 9.662902, y: 14.62663, z: 0}
+        outSlope: {x: 9.662902, y: 14.62663, z: 0}
+        tangentMode: 0
+      - time: 1.2333333
+        value: {x: 10, y: 10, z: 1}
+        inSlope: {x: -19.3258, y: -29.253252, z: 0}
+        outSlope: {x: -19.3258, y: -29.253252, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg010
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.2327678, y: 1.1000005, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -3.7758925, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 1.1, y: 1.1000005, z: 1}
+        inSlope: {x: -3.7758925, y: 0, z: 0}
+        outSlope: {x: 5.086956, y: 0.78260803, z: 0.6629862}
+        tangentMode: 0
+      - time: 1.0666667
+        value: {x: 5, y: 1.7, z: 1.5082895}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg011 (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.8374953, y: 6.4699974, z: 1.5248351}
+        inSlope: {x: 2.0951335, y: 3.4673212, z: 0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: 4.8374953, y: 6.4699974, z: 1.5248351}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 7.332967, y: 12.135624, z: -0}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: 9.72614, y: 14.560413, z: 1.5248351}
+        inSlope: {x: 7.332967, y: 12.135624, z: 0}
+        outSlope: {x: 2.0951335, y: 3.4673212, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.8374953, y: 6.469997, z: 1.5248351}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 4.8374953, y: 6.469997, z: 1.5248351}
+        inSlope: {x: 0.9812617, y: 2.5407157, z: 0}
+        outSlope: {x: 0.9812617, y: 2.5407157, z: 0}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 5.23, y: 7.4862833, z: 1.5248351}
+        inSlope: {x: 0.5607209, y: 3.8714051, z: 0}
+        outSlope: {x: 0.5607209, y: 3.8714051, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 4.8374953, y: 8.72826, z: 1.5248351}
+        inSlope: {x: -0.84108156, y: 2.6613789, z: 0}
+        outSlope: {x: -0.84108156, y: 2.6613789, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.8374953, y: 6.469997, z: 1.5248351}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.7
+        value: {x: 4.8374953, y: 6.469997, z: 1.5248351}
+        inSlope: {x: 5.24063, y: 19.718512, z: 0}
+        outSlope: {x: 5.24063, y: 19.718512, z: 0}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: 9.03, y: 22.244808, z: 1.5248351}
+        inSlope: {x: 8.8658905, y: 34.93797, z: 0}
+        outSlope: {x: 8.8658905, y: 34.93797, z: 0}
+        tangentMode: 0
+      - time: 1.7333333
+        value: {x: 13.621996, y: 41.52279, z: 1.5248351}
+        inSlope: {x: 7.25052, y: 30.438917, z: 0}
+        outSlope: {x: 7.25052, y: 30.438917, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.7740326, y: 6.469997, z: 1.5248351}
+        inSlope: {x: 0.52209806, y: 0, z: 0}
+        outSlope: {x: 0.52209806, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -7.6, y: 6.469997, z: 1.5248351}
+        inSlope: {x: -3.2139504, y: 4.129294, z: 0}
+        outSlope: {x: -3.2139504, y: 4.129294, z: 0}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: -8.99, y: 8.121715, z: 1.5248351}
+        inSlope: {x: -5.0046062, y: 5.4311957, z: 0}
+        outSlope: {x: -5.0046062, y: 5.4311957, z: 0}
+        tangentMode: 0
+      - time: 1.4666667
+        value: {x: -11.845266, y: 10.551931, z: 1.5248351}
+        inSlope: {x: -3.059214, y: 2.6038036, z: 0}
+        outSlope: {x: -3.059214, y: 2.6038036, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: dust/PeicunxiSkillImg013 (3)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2, y: 2, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.4
+        value: {x: 2, y: 2, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 6, y: 6, z: -0}
+        tangentMode: 0
+      - time: 1.7333333
+        value: {x: 10, y: 10, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008 (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2, y: 2, z: 4.000013}
+        inSlope: {x: -4.3846154, y: -4.3846154, z: 0}
+        outSlope: {x: -4.3846154, y: -4.3846154, z: -0}
+        tangentMode: 0
+      - time: 0.43333334
+        value: {x: 0.1, y: 0.1, z: 4.000013}
+        inSlope: {x: -4.3846154, y: -4.3846154, z: 0}
+        outSlope: {x: 10.500001, y: 10.500001, z: -0}
+        tangentMode: 0
+      - time: 0.9
+        value: {x: 5, y: 5, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008 (3)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2, y: 2, z: 4.000013}
+        inSlope: {x: -3.3529413, y: -3.3529413, z: 0}
+        outSlope: {x: -3.3529413, y: -3.3529413, z: -0}
+        tangentMode: 0
+      - time: 0.56666666
+        value: {x: 0.1, y: 0.1, z: 4.000013}
+        inSlope: {x: -3.3529413, y: -3.3529413, z: 0}
+        outSlope: {x: 6.157894, y: 6.157894, z: -0}
+        tangentMode: 0
+      - time: 1.2
+        value: {x: 4, y: 4, z: 4.000013}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: texiao/PeicunxiSkillImg008 (4)
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/jiguang/PeicunxiSkillImg003
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 3.7499998
+        outSlope: 3.7499998
+        tangentMode: 10
+      - time: 0.26666668
+        value: 1
+        inSlope: 1.410351
+        outSlope: -1.0344827
+        tangentMode: 17
+      - time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 0
+        inSlope: 7.4999986
+        outSlope: 7.4999986
+        tangentMode: 10
+      - time: 0.3
+        value: 1
+        inSlope: 14.999997
+        outSlope: 14.999997
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/jiguang/PeicunxiSkillImg004
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 0
+        inSlope: 7.4999986
+        outSlope: 7.4999986
+        tangentMode: 10
+      - time: 0.3
+        value: 1
+        inSlope: 14.999997
+        outSlope: 14.999997
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/jiguang/PeicunxiSkillImg003
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -11.01
+        outSlope: 2.4466667
+        tangentMode: 21
+      - time: 0.3
+        value: 0.734
+        inSlope: 2.4466667
+        outSlope: -0.71032256
+        tangentMode: 21
+      - time: 1.3333334
+        value: 0
+        inSlope: -0.71032256
+        outSlope: 4.8933334
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg009
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg011
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: -1.25
+        tangentMode: 17
+      - time: 1.1333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg011
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.26666668
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.8666667
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1.2333333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg010
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.3
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1.0666667
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.86956525
+        outSlope: -2.3076923
+        tangentMode: 21
+      - time: 0.43333334
+        value: 0
+        inSlope: -2.3076923
+        outSlope: 2.5000002
+        tangentMode: 21
+      - time: 0.8333333
+        value: 1
+        inSlope: 2.5000002
+        outSlope: -3.7499993
+        tangentMode: 21
+      - time: 1.1
+        value: 0
+        inSlope: -3.7499993
+        outSlope: -1.3333335
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.43333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg012
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.93749994
+        outSlope: -0.93749994
+        tangentMode: 10
+      - time: 1.0666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1
+        inSlope: -0.7158333
+        outSlope: -0.7158333
+        tangentMode: 10
+      - time: 1.2333333
+        value: 0.141
+        inSlope: -1.4316666
+        outSlope: -1.4316666
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg010
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.8
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: texiao/jiguang
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3
+        outSlope: -3
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0.99999976
+        outSlope: 0.99999976
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1
+        inSlope: 1.4285711
+        outSlope: 1.4285711
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -2.1428573
+        outSlope: -2.1428573
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -1.4285715
+        outSlope: -1.4285715
+        tangentMode: 10
+      - time: 0.7
+        value: 0
+        inSlope: 0.53571415
+        outSlope: 0.53571415
+        tangentMode: 10
+      - time: 1.1
+        value: 1
+        inSlope: 0.46052617
+        outSlope: 0.46052617
+        tangentMode: 10
+      - time: 1.7333333
+        value: 0
+        inSlope: -1.5789474
+        outSlope: -1.5789474
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.7
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3
+        outSlope: -3
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0.99999976
+        outSlope: 0.99999976
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1
+        inSlope: 2.4999998
+        outSlope: 2.4999998
+        tangentMode: 10
+      - time: 1.0333333
+        value: 1
+        inSlope: -1.153846
+        outSlope: -1.153846
+        tangentMode: 10
+      - time: 1.4666667
+        value: 0
+        inSlope: -2.307692
+        outSlope: -2.307692
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: 1
+        inSlope: 0
+        outSlope: -0.75
+        tangentMode: 17
+      - time: 1.7333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.4
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 3.7500002
+        outSlope: 3.7500002
+        tangentMode: 10
+      - time: 0.46666667
+        value: 1
+        inSlope: 2.3863637
+        outSlope: 2.3863637
+        tangentMode: 10
+      - time: 0.8333333
+        value: 0
+        inSlope: -2.727273
+        outSlope: -2.727273
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: Me/PeicunxiSkillBody002
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: -2.5367649
+        outSlope: -2.5367649
+        tangentMode: 10
+      - time: 0.46666667
+        value: 0.32352942
+        inSlope: -1.6143049
+        outSlope: -1.6143049
+        tangentMode: 10
+      - time: 0.8333333
+        value: 1
+        inSlope: 1.8449199
+        outSlope: 1.8449199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: Me/PeicunxiSkillBody001
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: -2.5367649
+        outSlope: -2.5367649
+        tangentMode: 10
+      - time: 0.46666667
+        value: 0.32352942
+        inSlope: -1.6143049
+        outSlope: -1.6143049
+        tangentMode: 10
+      - time: 0.8333333
+        value: 1
+        inSlope: 1.8449199
+        outSlope: 1.8449199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: Me/PeicunxiSkillBody001
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: -2.5367649
+        outSlope: -2.5367649
+        tangentMode: 10
+      - time: 0.46666667
+        value: 0.32352942
+        inSlope: -1.6143049
+        outSlope: -1.6143049
+        tangentMode: 10
+      - time: 0.8333333
+        value: 1
+        inSlope: 1.8449199
+        outSlope: 1.8449199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: Me/PeicunxiSkillBody001
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.43333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 1
+        inSlope: 0
+        outSlope: -2.1428573
+        tangentMode: 21
+      - time: 0.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.56666666
+        value: 1
+        inSlope: 0
+        outSlope: -1.5789472
+        tangentMode: 21
+      - time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.56666666
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 212
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 952453306
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3013707693
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1944927683
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 82447701
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 321565734
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1680704688
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2669466492
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 950867809
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2981295310
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2829698447
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1920807275
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 979269037
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 970372704
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3882578870
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1801846826
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 606574317
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2317608348
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 82447701
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 1680704688
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 950867809
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2317608348
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2981295310
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2829698447
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 3013707693
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1944927683
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 82447701
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 321565734
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1680704688
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2669466492
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 950867809
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2981295310
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2829698447
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1920807275
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1801846826
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 606574317
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2455669743
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1944927683
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 205135436
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2455669743
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 82447701
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 321565734
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 321565734
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1944927683
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1680704688
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2669466492
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 950867809
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 950867809
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2317608348
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2669466492
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1680704688
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3013707693
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2981295310
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2981295310
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2829698447
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2829698447
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1920807275
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1920807275
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2423014176
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 157618842
+      attribute: 2526845255
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 157618842
+      attribute: 4215373228
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 157618842
+      attribute: 2334886179
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1801846826
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1801846826
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 606574317
+      attribute: 304273561
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 606574317
+      attribute: 3305885265
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 0
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2669466492
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 2526845255
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 4215373228
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2594154253
+      attribute: 2334886179
+      script: {fileID: 0}
+      classID: 212
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.7333333
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.86
+        outSlope: 0.86
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 17.449999
+        inSlope: 1.2857192
+        outSlope: 1.2857192
+        tangentMode: 10
+      - time: 0.23333333
+        value: 17.75
+        inSlope: -20.05712
+        outSlope: -20.05712
+        tangentMode: 10
+      - time: 0.26666668
+        value: 16.37
+        inSlope: -18.299982
+        outSlope: -18.299982
+        tangentMode: 10
+      - time: 0.3
+        value: 16.53
+        inSlope: 5.399981
+        outSlope: 5.399981
+        tangentMode: 10
+      - time: 0.33333334
+        value: 16.73
+        inSlope: 5.249987
+        outSlope: 5.249987
+        tangentMode: 10
+      - time: 0.43333334
+        value: 17.18
+        inSlope: -1.9999969
+        outSlope: -1.9999969
+        tangentMode: 10
+      - time: 0.53333336
+        value: 16.33
+        inSlope: -6.750002
+        outSlope: -6.750002
+        tangentMode: 10
+      - time: 0.6333333
+        value: 15.83
+        inSlope: -4.049998
+        outSlope: -4.049998
+        tangentMode: 10
+      - time: 0.73333335
+        value: 15.52
+        inSlope: -3.3500113
+        outSlope: -3.3500113
+        tangentMode: 10
+      - time: 0.76666665
+        value: 15.4
+        inSlope: 28.664963
+        outSlope: 28.664963
+        tangentMode: 10
+      - time: 0.8
+        value: 17.431
+        inSlope: 60.929955
+        outSlope: 60.929955
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/jiguang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -8.389999
+        inSlope: 2.1428552
+        outSlope: 2.1428552
+        tangentMode: 10
+      - time: 0.23333333
+        value: -7.89
+        inSlope: -3.278577
+        outSlope: -3.278577
+        tangentMode: 10
+      - time: 0.26666668
+        value: -8.18
+        inSlope: -2.5500064
+        outSlope: -2.5500064
+        tangentMode: 10
+      - time: 0.3
+        value: -8.06
+        inSlope: 7.9500036
+        outSlope: 7.9500036
+        tangentMode: 10
+      - time: 0.33333334
+        value: -7.65
+        inSlope: 12.850006
+        outSlope: 12.850006
+        tangentMode: 10
+      - time: 0.43333334
+        value: -6.31
+        inSlope: 0.8500023
+        outSlope: 0.8500023
+        tangentMode: 10
+      - time: 0.53333336
+        value: -7.48
+        inSlope: -6.9499984
+        outSlope: -6.9499984
+        tangentMode: 10
+      - time: 0.6333333
+        value: -7.7
+        inSlope: -2.5499988
+        outSlope: -2.5499988
+        tangentMode: 10
+      - time: 0.73333335
+        value: -7.99
+        inSlope: -3.8499994
+        outSlope: -3.8499994
+        tangentMode: 10
+      - time: 0.76666665
+        value: -8.15
+        inSlope: -6.585001
+        outSlope: -6.585001
+        tangentMode: 10
+      - time: 0.8
+        value: -8.429
+        inSlope: -8.370002
+        outSlope: -8.370002
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/jiguang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.26666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.43333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.73333335
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.76666665
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.8
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/jiguang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.26666668
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.43333334
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.8
+        value: 4.137501
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/jiguang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 1
+        inSlope: -11.7117605
+        outSlope: -11.7117605
+        tangentMode: 10
+      - time: 0.26666668
+        value: 0.21921569
+        inSlope: -1.0971851
+        outSlope: -1.0971851
+        tangentMode: 10
+      - time: 0.43333334
+        value: 3.7574072
+        inSlope: 0.9564018
+        outSlope: 0.9564018
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1.825772
+        inSlope: -12.224826
+        outSlope: -12.224826
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1.3124418
+        inSlope: -5.9804325
+        outSlope: -5.9804325
+        tangentMode: 10
+      - time: 0.8
+        value: 0.17451482
+        inSlope: -6.8275614
+        outSlope: -6.8275614
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/jiguang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.26666668
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.43333334
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.8
+        value: 1.4285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/jiguang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/jiguang/PeicunxiSkillImg003
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: 0
+        outSlope: -5.6249995
+        tangentMode: 21
+      - time: 0.26666668
+        value: 0.5
+        inSlope: -5.6249995
+        outSlope: 3.6206896
+        tangentMode: 21
+      - time: 1.2333333
+        value: 4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg008
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: 0
+        outSlope: -5.6249995
+        tangentMode: 21
+      - time: 0.26666668
+        value: 0.5
+        inSlope: -5.6249995
+        outSlope: 3.6206896
+        tangentMode: 21
+      - time: 1.2333333
+        value: 4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg008
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.00001
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.26666668
+        value: 4.00001
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.2333333
+        value: 4.00001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg008
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -2.21
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.26666668
+        value: -2.21
+        inSlope: 0
+        outSlope: -2.1931033
+        tangentMode: 21
+      - time: 1.2333333
+        value: -4.33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg008
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.77
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.26666668
+        value: 2.77
+        inSlope: 0
+        outSlope: 0.43448284
+        tangentMode: 21
+      - time: 1.2333333
+        value: 3.19
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg008
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.19
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.26666668
+        value: -0.19
+        inSlope: 0
+        outSlope: -0.6827586
+        tangentMode: 21
+      - time: 1.2333333
+        value: -0.85
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg008
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 3.7499998
+        outSlope: 3.7499998
+        tangentMode: 10
+      - time: 0.26666668
+        value: 1
+        inSlope: 1.410351
+        outSlope: -1.0344827
+        tangentMode: 17
+      - time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 0
+        inSlope: 7.4999986
+        outSlope: 7.4999986
+        tangentMode: 10
+      - time: 0.3
+        value: 1
+        inSlope: 14.999997
+        outSlope: 14.999997
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/jiguang/PeicunxiSkillImg004
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.23333333
+        value: 0
+        inSlope: 7.4999986
+        outSlope: 7.4999986
+        tangentMode: 10
+      - time: 0.3
+        value: 1
+        inSlope: 14.999997
+        outSlope: 14.999997
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/jiguang/PeicunxiSkillImg003
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.3
+        inSlope: 1.3448273
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: 1.3
+        inSlope: 0
+        outSlope: -0.77419347
+        tangentMode: 21
+      - time: 1.3333334
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.3
+        inSlope: 1.3448273
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: 1.3
+        inSlope: 0
+        outSlope: -0.77419347
+        tangentMode: 21
+      - time: 1.3333334
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.3333334
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -2.31
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: -2.31
+        inSlope: 0
+        outSlope: 5.2548385
+        tangentMode: 21
+      - time: 1.3333334
+        value: 3.12
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.82
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: 2.82
+        inSlope: 0
+        outSlope: -3.280645
+        tangentMode: 21
+      - time: 1.3333334
+        value: -0.57
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.24
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: -0.24
+        inSlope: 0
+        outSlope: 2.3032258
+        tangentMode: 21
+      - time: 1.3333334
+        value: 2.14
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 27.400549
+        inSlope: 0.00027338663
+        outSlope: 0.00027338663
+        tangentMode: 10
+      - time: 0.3
+        value: 27.40063
+        inSlope: 0.0002132949
+        outSlope: 0.0002132949
+        tangentMode: 10
+      - time: 1.3333334
+        value: 27.40079
+        inSlope: 0.00015320317
+        outSlope: 0.00015320317
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 66.40008
+        inSlope: 0.00022888182
+        outSlope: 0.00022888182
+        tangentMode: 10
+      - time: 0.3
+        value: 66.40015
+        inSlope: 0.000121824196
+        outSlope: 0.000121824196
+        tangentMode: 10
+      - time: 1.3333334
+        value: 66.40016
+        inSlope: 0.0000147665705
+        outSlope: 0.0000147665705
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 79.9
+        inSlope: 661.00006
+        outSlope: 661.00006
+        tangentMode: 10
+      - time: 0.3
+        value: 278.2
+        inSlope: 199.46776
+        outSlope: 199.46776
+        tangentMode: 10
+      - time: 1.3333334
+        value: 7.4000006
+        inSlope: -262.06454
+        outSlope: -262.06454
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -11.01
+        outSlope: 2.4466667
+        tangentMode: 21
+      - time: 0.3
+        value: 0.734
+        inSlope: 2.4466667
+        outSlope: -0.71032256
+        tangentMode: 21
+      - time: 1.3333334
+        value: 0
+        inSlope: -0.71032256
+        outSlope: 4.8933334
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg009
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.2327678
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1.1
+        inSlope: 0
+        outSlope: 4.875
+        tangentMode: 17
+      - time: 1.1333333
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg011
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.1000005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1.1000005
+        inSlope: 0
+        outSlope: 0.74999946
+        tangentMode: 17
+      - time: 1.1333333
+        value: 1.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg011
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: 0.63536185
+        tangentMode: 17
+      - time: 1.1333333
+        value: 1.5082895
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg011
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.8399997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 4.84
+        inSlope: 0
+        outSlope: 0.44999957
+        tangentMode: 17
+      - time: 1.1333333
+        value: 5.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg011
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.0699999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: -1.07
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 17
+      - time: 1.1333333
+        value: -1.07
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg011
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 17
+      - time: 1.1333333
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg011
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg011
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: -1.25
+        tangentMode: 17
+      - time: 1.1333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg011
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.26666668
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.24
+        inSlope: -0.000002861023
+        outSlope: -0.000002861023
+        tangentMode: 10
+      - time: 0.33333334
+        value: 3.239999
+        inSlope: 3.6666672
+        outSlope: 3.6666672
+        tangentMode: 10
+      - time: 0.6333333
+        value: 5.44
+        inSlope: 4.900002
+        outSlope: 4.900002
+        tangentMode: 10
+      - time: 1.2333333
+        value: 6.92
+        inSlope: 2.4666667
+        outSlope: 2.4666667
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.23
+        inSlope: 0.00000035762787
+        outSlope: 0.00000035762787
+        tangentMode: 10
+      - time: 0.33333334
+        value: -1.2299999
+        inSlope: -0.16666196
+        outSlope: -0.16666196
+        tangentMode: 10
+      - time: 0.6333333
+        value: -1.3299972
+        inSlope: -0.34166443
+        outSlope: -0.34166443
+        tangentMode: 10
+      - time: 1.2333333
+        value: -1.54
+        inSlope: -0.3500046
+        outSlope: -0.3500046
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.2333333
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 31.105806
+        inSlope: 172.2546
+        outSlope: 172.2546
+        tangentMode: 10
+      - time: 0.33333334
+        value: 88.524
+        inSlope: 14.718956
+        outSlope: 14.718956
+        tangentMode: 10
+      - time: 0.6333333
+        value: 45.679
+        inSlope: -118.46501
+        outSlope: -118.46501
+        tangentMode: 10
+      - time: 1.2333333
+        value: -10.7890005
+        inSlope: -94.113335
+        outSlope: -94.113335
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 10
+        inSlope: 19.325802
+        outSlope: 19.325802
+        tangentMode: 10
+      - time: 0.6333333
+        value: 21.59548
+        inSlope: 9.662902
+        outSlope: 9.662902
+        tangentMode: 10
+      - time: 1.2333333
+        value: 10
+        inSlope: -19.3258
+        outSlope: -19.3258
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 10
+        inSlope: 29.253256
+        outSlope: 29.253256
+        tangentMode: 10
+      - time: 0.6333333
+        value: 27.551952
+        inSlope: 14.62663
+        outSlope: 14.62663
+        tangentMode: 10
+      - time: 1.2333333
+        value: 10
+        inSlope: -29.253252
+        outSlope: -29.253252
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.2333333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.8666667
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1.2333333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg010
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.8399982
+        inSlope: 0.0000063578286
+        outSlope: 0.0000063578286
+        tangentMode: 10
+      - time: 0.3
+        value: 4.84
+        inSlope: 0.23478554
+        outSlope: 0.23478554
+        tangentMode: 10
+      - time: 1.0666667
+        value: 5.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.0699984
+        inSlope: -0.0000055631
+        outSlope: -0.0000055631
+        tangentMode: 10
+      - time: 0.3
+        value: -1.07
+        inSlope: -0.00000278155
+        outSlope: -0.00000278155
+        tangentMode: 10
+      - time: 1.0666667
+        value: -1.07
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.0666667
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.2327678
+        inSlope: 0
+        outSlope: -3.7758925
+        tangentMode: 21
+      - time: 0.3
+        value: 1.1
+        inSlope: -3.7758925
+        outSlope: 5.086956
+        tangentMode: 21
+      - time: 1.0666667
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.1000005
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: 1.1000005
+        inSlope: 0
+        outSlope: 0.78260803
+        tangentMode: 21
+      - time: 1.0666667
+        value: 1.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.3
+        value: 1
+        inSlope: 0
+        outSlope: 0.6629862
+        tangentMode: 21
+      - time: 1.0666667
+        value: 1.5082895
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.3
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1.0666667
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 58.254
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -47.513
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -52.225002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.9499993
+        inSlope: 0.06956474
+        outSlope: 2.192306
+        tangentMode: 21
+      - time: 0.43333334
+        value: -3
+        inSlope: 2.192306
+        outSlope: -6.66
+        tangentMode: 21
+      - time: 1.1
+        value: -7.44
+        inSlope: -6.66
+        outSlope: -3.0637035
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.369998
+        inSlope: 0
+        outSlope: 4.9153805
+        tangentMode: 21
+      - time: 0.43333334
+        value: -5.24
+        inSlope: 4.9153805
+        outSlope: 4.0199995
+        tangentMode: 21
+      - time: 1.1
+        value: -2.56
+        inSlope: 4.0199995
+        outSlope: -2.811111
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.1
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.8374953
+        inSlope: 2.0951335
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 4.8374953
+        inSlope: 0
+        outSlope: 7.332967
+        tangentMode: 21
+      - time: 1.1
+        value: 9.72614
+        inSlope: 7.332967
+        outSlope: 2.0951335
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 6.4699974
+        inSlope: 3.4673212
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 6.4699974
+        inSlope: 0
+        outSlope: 12.135624
+        tangentMode: 21
+      - time: 1.1
+        value: 14.560413
+        inSlope: 12.135624
+        outSlope: 3.4673212
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.5248351
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 1.5248351
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.1
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 14.151001
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 14.151001
+        inSlope: 0
+        outSlope: -4.6890006
+        tangentMode: 21
+      - time: 1.1
+        value: 11.025001
+        inSlope: -4.6890006
+        outSlope: -4.168001
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.86956525
+        outSlope: -2.3076923
+        tangentMode: 21
+      - time: 0.43333334
+        value: 0
+        inSlope: -2.3076923
+        outSlope: 2.5000002
+        tangentMode: 21
+      - time: 0.8333333
+        value: 1
+        inSlope: 2.5000002
+        outSlope: -3.7499993
+        tangentMode: 21
+      - time: 1.1
+        value: 0
+        inSlope: -3.7499993
+        outSlope: -1.3333335
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.43333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg012
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.00000042688683
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 0.27000004
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 0.008
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: 0.16800001
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: 0.16800001
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 0.25500003
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: -0.18400002
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: -0.18400002
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 88.836006
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: -47.418003
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: -47.418003
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.93749994
+        outSlope: -0.93749994
+        tangentMode: 10
+      - time: 1.0666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1
+        inSlope: -0.7158333
+        outSlope: -0.7158333
+        tangentMode: 10
+      - time: 1.2333333
+        value: 0.141
+        inSlope: -1.4316666
+        outSlope: -1.4316666
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg010
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.8
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: texiao/jiguang
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.9499993
+        inSlope: 0.06956474
+        outSlope: 11.369998
+        tangentMode: 21
+      - time: 0.33333334
+        value: -0.16
+        inSlope: 11.369998
+        outSlope: -5.94
+        tangentMode: 21
+      - time: 1
+        value: -4.12
+        inSlope: -5.94
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.369998
+        inSlope: 0
+        outSlope: 7.6499934
+        tangentMode: 21
+      - time: 0.33333334
+        value: -4.82
+        inSlope: 7.6499934
+        outSlope: 2.1000001
+        tangentMode: 21
+      - time: 1
+        value: -3.42
+        inSlope: 2.1000001
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.33333334
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.8374953
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 4.8374953
+        inSlope: 0.9812617
+        outSlope: 0.9812617
+        tangentMode: 10
+      - time: 0.53333336
+        value: 5.23
+        inSlope: 0.5607209
+        outSlope: 0.5607209
+        tangentMode: 10
+      - time: 1
+        value: 4.8374953
+        inSlope: -0.84108156
+        outSlope: -0.84108156
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 6.469997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 6.469997
+        inSlope: 2.5407157
+        outSlope: 2.5407157
+        tangentMode: 10
+      - time: 0.53333336
+        value: 7.4862833
+        inSlope: 3.8714051
+        outSlope: 3.8714051
+        tangentMode: 10
+      - time: 1
+        value: 8.72826
+        inSlope: 2.6613789
+        outSlope: 2.6613789
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 14.151001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 14.151001
+        inSlope: 1.3162502
+        outSlope: 1.3162502
+        tangentMode: 10
+      - time: 1
+        value: 15.906001
+        inSlope: 2.6325004
+        outSlope: 2.6325004
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3
+        outSlope: -3
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0.99999976
+        outSlope: 0.99999976
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1
+        inSlope: 1.4285711
+        outSlope: 1.4285711
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -2.1428573
+        outSlope: -2.1428573
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.9499993
+        inSlope: 0.06956474
+        outSlope: -3.4000008
+        tangentMode: 21
+      - time: 0.7
+        value: -6.33
+        inSlope: -3.4000008
+        outSlope: -13.645162
+        tangentMode: 21
+      - time: 1.7333333
+        value: -20.43
+        inSlope: -13.645162
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.369998
+        inSlope: 0
+        outSlope: 3.9428542
+        tangentMode: 21
+      - time: 0.7
+        value: -4.61
+        inSlope: 3.9428542
+        outSlope: 10.219355
+        tangentMode: 21
+      - time: 1.7333333
+        value: 5.95
+        inSlope: 10.219355
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.7
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.7333333
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.7333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.7333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 14.151001
+        inSlope: 12.053655
+        outSlope: 12.053655
+        tangentMode: 10
+      - time: 1.7333333
+        value: 35.044003
+        inSlope: 12.053655
+        outSlope: 12.053655
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.8374953
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.7
+        value: 4.8374953
+        inSlope: 5.24063
+        outSlope: 5.24063
+        tangentMode: 10
+      - time: 1.1
+        value: 9.03
+        inSlope: 8.8658905
+        outSlope: 8.8658905
+        tangentMode: 10
+      - time: 1.7333333
+        value: 13.621996
+        inSlope: 7.25052
+        outSlope: 7.25052
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 6.469997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.7
+        value: 6.469997
+        inSlope: 19.718512
+        outSlope: 19.718512
+        tangentMode: 10
+      - time: 1.1
+        value: 22.244808
+        inSlope: 34.93797
+        outSlope: 34.93797
+        tangentMode: 10
+      - time: 1.7333333
+        value: 41.52279
+        inSlope: 30.438917
+        outSlope: 30.438917
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.7
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.1
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.7333333
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -1.4285715
+        outSlope: -1.4285715
+        tangentMode: 10
+      - time: 0.7
+        value: 0
+        inSlope: 0.53571415
+        outSlope: 0.53571415
+        tangentMode: 10
+      - time: 1.1
+        value: 1
+        inSlope: 0.46052617
+        outSlope: 0.46052617
+        tangentMode: 10
+      - time: 1.7333333
+        value: 0
+        inSlope: -1.5789474
+        outSlope: -1.5789474
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.7
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 8.699996
+        inSlope: 0.06956474
+        outSlope: -9.209988
+        tangentMode: 21
+      - time: 0.33333334
+        value: 5.63
+        inSlope: -9.209988
+        outSlope: 5.885294
+        tangentMode: 21
+      - time: 1.4666667
+        value: 12.3
+        inSlope: 5.885294
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.3699956
+        inSlope: 0
+        outSlope: 4.739987
+        tangentMode: 21
+      - time: 0.33333334
+        value: -5.79
+        inSlope: 4.739987
+        outSlope: 2.4705882
+        tangentMode: 21
+      - time: 1.4666667
+        value: -2.99
+        inSlope: 2.4705882
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.33333334
+        value: 2.5099998
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.4666667
+        value: 2.5099998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.7740326
+        inSlope: 0.52209806
+        outSlope: 0.52209806
+        tangentMode: 10
+      - time: 0.33333334
+        value: -7.6
+        inSlope: -3.2139504
+        outSlope: -3.2139504
+        tangentMode: 10
+      - time: 0.53333336
+        value: -8.99
+        inSlope: -5.0046062
+        outSlope: -5.0046062
+        tangentMode: 10
+      - time: 1.4666667
+        value: -11.845266
+        inSlope: -3.059214
+        outSlope: -3.059214
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 6.469997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 6.469997
+        inSlope: 4.129294
+        outSlope: 4.129294
+        tangentMode: 10
+      - time: 0.53333336
+        value: 8.121715
+        inSlope: 5.4311957
+        outSlope: 5.4311957
+        tangentMode: 10
+      - time: 1.4666667
+        value: 10.551931
+        inSlope: 2.6038036
+        outSlope: 2.6038036
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.4666667
+        value: 1.5248351
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.4666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.4666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.2540001
+        inSlope: -6.460909
+        outSlope: -6.460909
+        tangentMode: 10
+      - time: 1.4666667
+        value: -8.222
+        inSlope: -6.460909
+        outSlope: -6.460909
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -3
+        outSlope: -3
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0.99999976
+        outSlope: 0.99999976
+        tangentMode: 10
+      - time: 0.53333336
+        value: 1
+        inSlope: 2.4999998
+        outSlope: 2.4999998
+        tangentMode: 10
+      - time: 1.0333333
+        value: 1
+        inSlope: -1.153846
+        outSlope: -1.153846
+        tangentMode: 10
+      - time: 1.4666667
+        value: 0
+        inSlope: -2.307692
+        outSlope: -2.307692
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5.47
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: 3.72
+        inSlope: 0
+        outSlope: 0.90000004
+        tangentMode: 17
+      - time: 1.7333333
+        value: 4.92
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.91
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: -1.39
+        inSlope: 0
+        outSlope: -0.13500005
+        tangentMode: 17
+      - time: 1.7333333
+        value: -1.57
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.5599999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: -0.5599999
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 17
+      - time: 1.7333333
+        value: -0.5599999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: 2
+        inSlope: 0
+        outSlope: 6
+        tangentMode: 17
+      - time: 1.7333333
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: 2
+        inSlope: 0
+        outSlope: 6
+        tangentMode: 17
+      - time: 1.7333333
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: 4.000013
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 17
+      - time: 1.7333333
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.4
+        value: 1
+        inSlope: 0
+        outSlope: -0.75
+        tangentMode: 17
+      - time: 1.7333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.4
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008 (2)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.54
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 3.54
+        inSlope: 0
+        outSlope: 4.249999
+        tangentMode: 17
+      - time: 0.53333336
+        value: 4.39
+        inSlope: 3.190789
+        outSlope: 3.190789
+        tangentMode: 10
+      - time: 1.1666666
+        value: 5.74
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Enemy
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -8.26
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: -8.26
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: -8.26
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.1666666
+        value: -8.26
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Enemy
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.1666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Enemy
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -6.53
+        inSlope: 0.93000126
+        outSlope: 0.93000126
+        tangentMode: 10
+      - time: 0.33333334
+        value: -6.22
+        inSlope: 0
+        outSlope: -6.166278
+        tangentMode: 1
+      - time: 0.56666666
+        value: -6.9162173
+        inSlope: -1.6621786
+        outSlope: -1.6621786
+        tangentMode: 0
+      - time: 1.2666667
+        value: -7.33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Me
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -8.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: -8.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.56666666
+        value: -8.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.2666667
+        value: -8.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Me
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.56666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.2666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Me
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.023
+        inSlope: -0.35700005
+        outSlope: -0.35700005
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0.904
+        inSlope: 0
+        outSlope: 0.8014311
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Me/PeicunxiSkillBody003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.655
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 4.655
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Me/PeicunxiSkillBody003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Me/PeicunxiSkillBody003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 0
+        inSlope: 3.7500002
+        outSlope: 3.7500002
+        tangentMode: 10
+      - time: 0.46666667
+        value: 1
+        inSlope: 2.3863637
+        outSlope: 2.3863637
+        tangentMode: 10
+      - time: 0.8333333
+        value: 0
+        inSlope: -2.727273
+        outSlope: -2.727273
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: Me/PeicunxiSkillBody002
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: -2.5367649
+        outSlope: -2.5367649
+        tangentMode: 10
+      - time: 0.46666667
+        value: 0.32352942
+        inSlope: -1.6143049
+        outSlope: -1.6143049
+        tangentMode: 10
+      - time: 0.8333333
+        value: 1
+        inSlope: 1.8449199
+        outSlope: 1.8449199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: Me/PeicunxiSkillBody001
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: -2.5367649
+        outSlope: -2.5367649
+        tangentMode: 10
+      - time: 0.46666667
+        value: 0.32352942
+        inSlope: -1.6143049
+        outSlope: -1.6143049
+        tangentMode: 10
+      - time: 0.8333333
+        value: 1
+        inSlope: 1.8449199
+        outSlope: 1.8449199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: Me/PeicunxiSkillBody001
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1
+        inSlope: -2.5367649
+        outSlope: -2.5367649
+        tangentMode: 10
+      - time: 0.46666667
+        value: 0.32352942
+        inSlope: -1.6143049
+        outSlope: -1.6143049
+        tangentMode: 10
+      - time: 0.8333333
+        value: 1
+        inSlope: 1.8449199
+        outSlope: 1.8449199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: Me/PeicunxiSkillBody001
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5.47
+        inSlope: -2.46923
+        outSlope: -2.46923
+        tangentMode: 21
+      - time: 0.43333334
+        value: 4.4
+        inSlope: -2.46923
+        outSlope: 3.3642852
+        tangentMode: 21
+      - time: 0.9
+        value: 5.97
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.91
+        inSlope: -1.1538464
+        outSlope: -1.1538464
+        tangentMode: 21
+      - time: 0.43333334
+        value: -2.41
+        inSlope: -1.1538464
+        outSlope: 0.5357143
+        tangentMode: 21
+      - time: 0.9
+        value: -2.16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.5599999
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: -0.5599999
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.9
+        value: -0.5599999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.43333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: -4.3846154
+        outSlope: -4.3846154
+        tangentMode: 21
+      - time: 0.43333334
+        value: 0.1
+        inSlope: -4.3846154
+        outSlope: 10.500001
+        tangentMode: 21
+      - time: 0.9
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: -4.3846154
+        outSlope: -4.3846154
+        tangentMode: 21
+      - time: 0.43333334
+        value: 0.1
+        inSlope: -4.3846154
+        outSlope: 10.500001
+        tangentMode: 21
+      - time: 0.9
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.000013
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 4.000013
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.9
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.43333334
+        value: 1
+        inSlope: 0
+        outSlope: -2.1428573
+        tangentMode: 21
+      - time: 0.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008 (3)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5.47
+        inSlope: -0.5999994
+        outSlope: -0.5999994
+        tangentMode: 21
+      - time: 0.56666666
+        value: 5.13
+        inSlope: -0.5999994
+        outSlope: 1.7684207
+        tangentMode: 21
+      - time: 1.2
+        value: 6.25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.91
+        inSlope: 4.1117644
+        outSlope: 4.1117644
+        tangentMode: 21
+      - time: 0.56666666
+        value: 0.42
+        inSlope: 4.1117644
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.2
+        value: 0.42
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.5599999
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.56666666
+        value: -0.5599999
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.2
+        value: -0.5599999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: -3.3529413
+        outSlope: -3.3529413
+        tangentMode: 21
+      - time: 0.56666666
+        value: 0.1
+        inSlope: -3.3529413
+        outSlope: 6.157894
+        tangentMode: 21
+      - time: 1.2
+        value: 4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2
+        inSlope: -3.3529413
+        outSlope: -3.3529413
+        tangentMode: 21
+      - time: 0.56666666
+        value: 0.1
+        inSlope: -3.3529413
+        outSlope: 6.157894
+        tangentMode: 21
+      - time: 1.2
+        value: 4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.000013
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.56666666
+        value: 4.000013
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.2
+        value: 4.000013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.56666666
+        value: 1
+        inSlope: 0
+        outSlope: -1.5789472
+        tangentMode: 21
+      - time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.56666666
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: texiao/PeicunxiSkillImg008 (4)
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.98
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 4.98
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 6.95
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: 8.1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: 8.1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.87999994
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: -0.87999994
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: -0.8799999
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: -0.32
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: -0.32
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.5099998
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.5
+        value: 2.5099998
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.6333333
+        value: 2.5099998
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.76666665
+        value: 2.5099998
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.9
+        value: 2.5099998
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.6
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: dust/PeicunxiSkillImg013 (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: dust/PeicunxiSkillImg013 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: dust/PeicunxiSkillImg013 (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: texiao/PeicunxiSkillImg011 (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: texiao/PeicunxiSkillImg009
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: dust/PeicunxiSkillImg013
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: texiao/PeicunxiSkillImg010
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: texiao/PeicunxiSkillImg012
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 1
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0.36666667
+    functionName: OnEvent_ShakeCamera
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.36666667
+    functionName: OnEvent_ShowHP
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

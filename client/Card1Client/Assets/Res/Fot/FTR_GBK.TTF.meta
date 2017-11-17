@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: a586add0f9cd29944a5b0eecc097ca15
+timeCreated: 1505899458
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FZCuYuan-M03
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: ftr_gbk.ttf
+  assetBundleVariant: 
