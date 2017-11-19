@@ -176,11 +176,11 @@ namespace Assets.XGame.NetWork
                         try
                         {
                             byte[] data = im.ReadBytes(im.LengthBytes);
-                            object msg = ProtoNetSerialize.Decode(data);
-                            if (msg != null)
-                            {
-                                PushMsg(msg, im.SenderConnection);
-                            }
+                            //object msg = ProtoNetSerialize.Decode(data);
+                            //if (msg != null)
+                            //{
+                            //    PushMsg(msg, im.SenderConnection);
+                            //}
                         }
 #pragma warning disable CS0168 // The variable 'ex' is declared but never used
                         catch (Exception ex)

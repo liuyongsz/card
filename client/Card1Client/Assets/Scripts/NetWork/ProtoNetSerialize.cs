@@ -63,20 +63,14 @@ namespace Assets.XGame.NetWork
         public static int readBodyLength = 0;
         public static int readId = 0;
 
-        public static object Decode(byte[] msgbuf)
+        public static object Decode(int id,byte[] msgbuf)
         {
-            int length = (int)(((int)msgbuf[0] << 8) | ((int)msgbuf[1]));
-            int val = (int)msgbuf[3];
-            if (val < 0) val += 256;
-
-            int id = (int)(((int)msgbuf[2] << 8) | (val));
-            readBodyLength = length;
-            readId = id;
             if (id < 0)
             {
-                //LogSystem.Debug("decode message error:id({0}) len({1}) error !!!", id, msgbuf.Length - 2);
+                UnityEngine.Debug.LogError("NetDataMgr.Instance.mMrgs  not have:" + id);
                 return null;
             }
+            readId = id;
 
             //if (s_DicIDMsg.ContainsKey(id))
             //{
@@ -91,18 +85,18 @@ namespace Assets.XGame.NetWork
                 Type t = netPar.mType;
                // Type t = typeof(NetProtocal.LoginMsg2);
                 DataStream.SetLength(0);
-                DataStream.Write(msgbuf, 4, msgbuf.Length - 4);
+                DataStream.Write(msgbuf, 0, msgbuf.Length);
                 DataStream.Position = 0;
                 try
                 {
                 //ProtoBuf.Meta.RuntimeTypeModel.Default.Deserialize(m_protoms, null, n.mType);
                 //object msg = ProtoBuf.Serializer.Deserialize<Type>(DataStream);
-                int bodyLen = length - 4;
+                //int bodyLen = length - 4;
                
-                    object msg = ProtoBuf.Meta.RuntimeTypeModel.Default.Deserialize(DataStream, null, t,bodyLen);
+                    object msg = ProtoBuf.Meta.RuntimeTypeModel.Default.Deserialize(DataStream, null, t);
                     if (msg == null)
                     {
-                        //LogSystem.Debug("decode message error:can't find id {0} len({1}) !!!", id, msgbuf.Length - 2);
+                        UnityEngine.Debug.LogError("NetDataMgr.Instance.mMrgs  not have:" + sid);
                         return null;
                     }
                     //LogSystem.Info("decode message:id {0} len({1})[{2}]", id, msgbuf.Length - 2, msg.GetType().Name);
@@ -110,7 +104,7 @@ namespace Assets.XGame.NetWork
                 }
                 catch (Exception ex)
                 {
-                    //LogSystem.Error("decode message error:id({0}) len({1}) {2}\n{3}\nData:\n{4}", id, msgbuf.Length - 2, ex.Message, ex.StackTrace, Helper.BinToHex(msgbuf, 2));
+                    UnityEngine.Debug.LogError("NetDataMgr.Instance.mMrgs  not have:" + sid);
                     throw ex;
                 }
            // }

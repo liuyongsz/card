@@ -87,30 +87,24 @@ class NSocket
 
     private Queue<NetData> m_sendqueue = new Queue<NetData>();
     private Queue<NetData> m_revqueue = new Queue<NetData>();
-    private Socket m_socket;
-    public Socket Socket
-    {
-        get { return m_socket; }
-    }
-    private const int m_timeout = 5000;
-    private Thread m_readthread;
 
-    //MemoryStream m_sendms = new MemoryStream();
-    //MemoryStream m_memstream = new MemoryStream();
-    //BinaryReader m_reader = new BinaryReader(m_memstream);
-    //MemoryStream m_logicms = new MemoryStream();
-    //BinaryWriter m_logicwriter = new BinaryWriter(m_logicms);
-    //MemoryStream m_protoms = new MemoryStream();
+    private TcpClient client = null;
+
+    AsyncCallback readAsync;
+
+    private const int m_timeout = 5000;
 
     MemoryStream m_sendms;
     MemoryStream m_memstream;//处理 分包
     BinaryReader m_reader;
-    MemoryStream m_logicms; //逻辑层
     MemoryStream m_protoms; //专门解析protobuf
-    BinaryWriter m_logicwriter; 
+
+    private NetworkStream outStream = null;
+    private const int MAX_READ = 1024 * 10;
+    private byte[] byteBuffer = new byte[MAX_READ];//接受缓冲区10K
 
     private byte[] m_sendbuf = new byte[9192]; //发送缓冲区8K
-    private byte[] m_receivebuf = new byte[9192];//接受缓冲区8K
+    //private byte[] m_receivebuf = new byte[9192];//接受缓冲区8K
 
     private object _obj = new object();
     public void SetServerTime(float t)
@@ -128,18 +122,14 @@ class NSocket
         Closed();
 
         // close 
-        if (null != m_logicwriter) m_logicwriter.Close();
         if (null != m_reader) m_reader.Close();
         if (null != m_sendms) m_sendms.Close();
         if (null != m_memstream) m_memstream.Close();
-        if (null != m_logicms) m_logicms.Close();
         if (null != m_protoms) m_protoms.Close();
 
-        m_logicwriter = null;
         m_reader = null;
         m_sendms = null;
         m_memstream = null;
-        m_logicms = null;
         m_protoms = null;
     }
     ~NSocket()
@@ -151,11 +141,13 @@ class NSocket
     public NSocket()
     {
             m_sendms = new MemoryStream();
+
             m_memstream = new MemoryStream();
             m_reader = new BinaryReader(m_memstream);
-            m_logicms = new MemoryStream();
-            m_logicwriter = new BinaryWriter(m_logicms);
+
             m_protoms = new MemoryStream();
+
+            readAsync = new AsyncCallback(OnRead); ;
  
     }
     private static NSocket instance;
@@ -178,7 +170,7 @@ class NSocket
     private bool Send(NetProtocal.Request cmd,int correlationid,  byte[] data,int len)
     {
         SocketError error;
-        if(null==m_socket || !m_socket.Connected)
+        if(null==client || !client.Connected)
         {
             m_status = EStatus.e_closed;
             Debug.Log("#############################\nsocket is closed");
@@ -187,13 +179,13 @@ class NSocket
             return false;   
         }
 
-        m_socket.Send(data, 0, len, SocketFlags.None, out error);
-        if (SocketError.Success != error)
-        {
-            Debug.LogError("socket error"+error.ToString());
-            AddToSendQueue(m_correlationid, cmd, data, len);
-            return false;
-        }
+        outStream.Write(data, 0, len);
+        //if (SocketError.Success != error)
+        //{
+        //    Debug.LogError("socket error"+error.ToString());
+        //    AddToSendQueue(m_correlationid, cmd, data, len);
+        //    return false;
+        //}
         return true;
            
     }
@@ -217,23 +209,6 @@ class NSocket
     }
     public void SendData(NetProtocal.Request cmd,object obj = null)
     {
-        // if (cmd != NetProtocal.ProtoPacket.ServerID.s2c_heart_check) Main.heartTime = GetTimeStamp(false); // 如果不是心跳请求 进行延后处理心跳
-        //重置MemoryStream发送的内容序列化
-        //m_sendms.SetLength(0);
-        //.Position = 0;
-        //ProtoBuf.Serializer.Serialize(m_sendms, obj);
-
-        //填充发送结构体
-        //m_request.correlation_id = ++m_correlationid;
-        //m_request.payload = m_sendms.ToArray();
-        // m_request.service_no = cmd;
-        //m_request.auth_id = m_auth_id;
-        //m_request.auth_token = m_auth_token;
-        //重置MemoryStream m_request序列化
-        //m_sendms.SetLength(0);
-        //m_sendms.Position = 0;
-        //ProtoBuf.Serializer.Serialize(m_sendms, m_request);
-
         byte[] content = m_sendms.ToArray();
 
         int len = content.Length;
@@ -249,54 +224,80 @@ class NSocket
 
         Send(cmd, m_correlationid, m_sendbuf, content.Length);
 
-        Debug.Log("发送数据：" + cmd.ToString() + "  len:" + content.Length);
+        //Debug.Log("发送数据：" + cmd.ToString() + "  len:" + content.Length);
         //Debug.Log("发送数据" + cmd);
     }
+
     private void StarConnect()
     {
         m_status = EStatus.e_connecting;
-        //Debug.Log("###################\nConnectServer--------------" + NTestMgr.instance.ToString());
-        Closed();
-        m_socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-        //IPAddress ipAddress = IPAddress.Parse("192.168.2.100");
-        //  IPAddress ipAddress = IPAddress.Parse("114.80.224.61");
-        // IPAddress ipAddress = IPAddress.Parse("192.168.1.105");
-        IPAddress ipAddress = IPAddress.Parse(m_ip);
-        IPEndPoint ipEndpoint = new IPEndPoint(ipAddress, m_port);
-        Debug.Log("ServerIP : " + m_ip + ", ServerPort : " + m_port);
-        IAsyncResult result = m_socket.BeginConnect(ipEndpoint, new AsyncCallback(ConnectCallback), m_socket);
-        //这里做一个超时的监测，当连接超过5秒还没成功表示超时
-        bool success = result.AsyncWaitHandle.WaitOne(m_timeout, true);
-        if (!success)
+
+        client = null;
+
+        IPAddress[] address = Dns.GetHostAddresses(m_ip);
+        if (address[0].AddressFamily == AddressFamily.InterNetworkV6)
         {
-            //超时
-            Closed();
-            Debug.Log("connect Time Out");
+            //ipv6
+            client = new TcpClient(AddressFamily.InterNetworkV6);
         }
         else
         {
-            //与socket建立连接成功，开启线程接受服务端数据。
-            m_status = EStatus.e_connected;
-            m_readthread = new Thread(new ThreadStart(ReceiveSocket));
-            m_readthread.IsBackground = true;
-            m_readthread.Start();
-            if (m_socket.Connected)
-            {
-                while (m_sendqueue.Count > 0)
-                {
-                    NetData data = m_sendqueue.Dequeue();
-                    if (!Send(data.m_serverRequest, data.m_correlationid, data.m_data, data.m_data.Length))
-                    {
-                        break;
-                    }
-                }
-            }
-            else
-            {
-                Debug.LogError("connect failed");
-                //10 秒后重连
-            }
+            client = new TcpClient();
         }
+
+        client.SendTimeout = 1000;
+        client.ReceiveTimeout = 1000;
+        client.NoDelay = true;
+
+        try
+        {
+            IAsyncResult result = client.BeginConnect(m_ip, m_port, new AsyncCallback(ConnectCallback), null);
+        }
+        catch (Exception e)
+        {
+            Closed(); 
+            Debug.LogError(e.Message);
+        }
+
+
+        //Debug.Log("###################\nConnectServer--------------" + NTestMgr.instance.ToString());
+        //Closed();
+
+        Debug.Log("ServerIP : " + m_ip + ", ServerPort : " + m_port);
+        //IAsyncResult result = m_socket.BeginConnect(ipEndpoint, new AsyncCallback(ConnectCallback), m_socket);
+        //这里做一个超时的监测，当连接超过5秒还没成功表示超时
+        //bool success = result.AsyncWaitHandle.WaitOne(m_timeout, true);
+        //if (!success)
+        //{
+        //    //超时
+        //    Closed();
+        //    Debug.Log("connect Time Out");
+        //}
+        //else
+        //{
+
+        //    //与socket建立连接成功，开启线程接受服务端数据。
+        //    m_status = EStatus.e_connected;
+        //    m_readthread = new Thread(new ThreadStart(ReceiveSocket));
+        //    m_readthread.IsBackground = true;
+        //    m_readthread.Start();
+        //    if (m_socket.Connected)
+        //    {
+        //        while (m_sendqueue.Count > 0)
+        //        {
+        //            NetData data = m_sendqueue.Dequeue();
+        //            if (!Send(data.m_serverRequest, data.m_correlationid, data.m_data, data.m_data.Length))
+        //            {
+        //                break;
+        //            }
+        //        }
+        //    }
+        //    else
+        //    {
+        //        Debug.LogError("connect failed");
+        //        //10 秒后重连
+        //    }
+        //}
     }
 
     public void SetIpAddress(string ip,int port)
@@ -313,7 +314,7 @@ class NSocket
 
     public bool IsConnected()
     {
-        return (m_socket != null) ? m_socket.Connected : false;
+        return (client != null) ? client.Connected : false;
     }
 
     private int ReadInt(MemoryStream ms)
@@ -345,37 +346,36 @@ class NSocket
     /// </summary>
     private void OnReceive(byte[] bytes, int length)
     {
-        //保存接收到的数据
         m_memstream.Seek(0, SeekOrigin.End);
         m_memstream.Write(bytes, 0, length);
         //Reset to beginning
         m_memstream.Seek(0, SeekOrigin.Begin);
-        while (RemainingBytes() > 4)
+        while (RemainingBytes() >= 4)
         {
-            int messageLen = (int)(((int)bytes[0] << 8) | ((int)bytes[1])); 
-            //int ret = System.BitConverter.ToInt32(lenbuff, 0);
-            //ret = System.BitConverter.ToInt32(lenbuff, 0);
-            //int messageLen = ret;
-
-            if (RemainingBytes() >= messageLen) //有消息可以处理
+            UInt16 size = m_reader.ReadUInt16();
+            if (IsLittleEndian)
             {
-                ClearStream(m_logicms);
+                size = ConvertEndian.Convert(size);
+            }
+            if (RemainingBytes() >= size - 2)
+            {
+                UInt16 cmd = m_reader.ReadUInt16();
+                if (IsLittleEndian)
+                {
+                    cmd = ConvertEndian.Convert(cmd);
+                }
+                byte[] arr = m_reader.ReadBytes(size-4);
 
-                byte[]arr =  m_reader.ReadBytes(messageLen);
-                m_logicwriter.Write(arr);
-                m_logicms.Seek(0, SeekOrigin.Begin);
-                Debug.Log("receiver len:" + m_logicms.Length);
-
-                object msg = ProtoNetSerialize.Decode(bytes);
+                object msg = ProtoNetSerialize.Decode(cmd,arr);
                 OnReceivedMessage(msg);
             }
-            else
-            {
-                m_memstream.Position = m_memstream.Position - 4;
+            else {
+                //消息长度不够
+                m_memstream.Position = m_memstream.Position - 2;
                 break;
             }
         }
-        //移除已处理的btye 保存未处理的 byte
+
         byte[] leftover = m_reader.ReadBytes((int)RemainingBytes());
         ClearStream(m_memstream);
         m_memstream.Write(leftover, 0, leftover.Length);
@@ -388,9 +388,14 @@ class NSocket
     /// <param name="ms"></param>
     public void OnReceivedMessage(object ms)
     {
-        if (null == ms) return;
+        if (null == ms)
+        {
+            Debug.Log("ms===nullnullnullnullnullnullnullnull");
+            return;
+        }
 
         NetProtocal.Respone sid = (NetProtocal.Respone)ProtoNetSerialize.readId;
+        Debug.Log("sid=========" + sid + GetTimeStamp());
         NetDataMgr.Instance.Mrgs[sid].data = ms;
 
         msgList.Add(NetDataMgr.Instance.Mrgs[sid]);
@@ -484,47 +489,55 @@ class NSocket
 
     private void ConnectCallback(IAsyncResult asyncConnect)
     {
-        if (!m_socket.Connected){
-            Debug.Log("connectFail--");
+        if (!client.Connected){
+            Debug.LogError("connectFail--");
             return;
         }
         Debug.Log("connectSuccess");
+
+        outStream = client.GetStream();
+        outStream.BeginRead(byteBuffer, 0, MAX_READ, readAsync, null);
+
+        //断线重连发送数据
+        while (m_sendqueue.Count > 0)
+        {
+            NetData data = m_sendqueue.Dequeue();
+            if (!Send(data.m_serverRequest, data.m_correlationid, data.m_data, data.m_data.Length))
+            {
+                break;
+            }
+        }
+
+        //NetworkManager.AddEvent(Protocal.Connect, new ByteBuffer());
         //Message connected = GIMessageFactory.GetMessage(EUIMessage.UI_NETWORK_CONNECTED, null);
         //MessageManager.DispatchMessage(connected);
     }
 
-    private void ReceiveSocket()
+    void OnRead(IAsyncResult asr)
     {
-        //在这个线程中接受服务器返回的数据
-        while (true)
+        int bytesRead = 0;
+        try
         {
-
-            if (null!=m_socket&&!m_socket.Connected)
-            {
-                //与服务器断开连接跳出循环
-                mDebugLog = "Failed to clientSocket server.";
-                Closed();
-                break;
+            lock (outStream)
+            {         //读取字节流到缓冲区
+                bytesRead = outStream.EndRead(asr);
             }
-            try
-            {
-                if (m_socket.Available > 0)
-                {
-                    int i = m_socket.Receive(m_receivebuf);
-                    if (i <= 0)
-                    {
-                        Closed();
-                        break;
-                    }
-                    OnReceive(m_receivebuf, i);//抛给逻辑层
-                }
+            if (bytesRead < 1)
+            {                //包尺寸有问题，断线处理
+                //OnDisconnected(DisType.Disconnect, "bytesRead < 1");
+                return;
             }
-            catch (Exception e)
-            {
-                mDebugLog = "Failed to clientSocket error." + e;
-                Closed();
-                break;
+            OnReceive(byteBuffer, bytesRead);   //分析数据包内容，抛给逻辑层
+            lock (outStream)
+            {         //分析完，再次监听服务器发过来的新消息
+                Array.Clear(byteBuffer, 0, byteBuffer.Length);   //清空数组
+                outStream.BeginRead(byteBuffer, 0, MAX_READ, readAsync, null);
             }
+        }
+        catch (Exception ex)
+        {
+            //PrintBytes();
+            //OnDisconnected(DisType.Exception, ex.Message);
         }
     }
 
@@ -533,32 +546,16 @@ class NSocket
     /// </summary>
     public void Closed()
     {
-        if (m_socket != null && m_socket.Connected)
+        if (client != null)
         {
-            try
+            if (client.Connected)
             {
-                m_socket.Shutdown(SocketShutdown.Both);
+                client.Close();
+                outStream.Close();
             }
-            catch (Exception)
-            {
-                throw;
-            }
-            try
-            {
-                m_socket.Close();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-             
+            client = null;
         }
-        if (null != m_readthread)
-        {
-            m_readthread.Abort();
-        }
-        m_socket = null;
-        m_readthread = null;
+
         Debug.LogWarning("socket close");
         m_status = EStatus.e_closed;
     }

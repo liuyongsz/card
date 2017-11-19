@@ -749,6 +749,12 @@ namespace NetProtocal
       [global::ProtoBuf.ProtoEnum(Name=@"NoRole", Value=100)]
       NoRole = 100,
             
+      [global::ProtoBuf.ProtoEnum(Name=@"PlayerStateErr", Value=150)]
+      PlayerStateErr = 150,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"Matched", Value=151)]
+      Matched = 151,
+            
       [global::ProtoBuf.ProtoEnum(Name=@"TeamNameRepeat", Value=200)]
       TeamNameRepeat = 200,
             
@@ -789,6 +795,23 @@ namespace NetProtocal
     {
       get { return _selectTeam; }
       set { _selectTeam = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"MatchResultMsg")]
+  public partial class MatchResultMsg : global::ProtoBuf.IExtensible
+  {
+    public MatchResultMsg() {}
+    
+    private int _needTime;
+    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"needTime", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int needTime
+    {
+      get { return _needTime; }
+      set { _needTime = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
@@ -1530,6 +1553,9 @@ namespace NetProtocal
             
       [global::ProtoBuf.ProtoEnum(Name=@"StartRoundRes", Value=204)]
       StartRoundRes = 204,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"MatchFightRes", Value=205)]
+      MatchFightRes = 205,
             
       [global::ProtoBuf.ProtoEnum(Name=@"EffectRes", Value=207)]
       EffectRes = 207
