@@ -1,0 +1,15 @@
+E:\SVN\u3ddemo_ilr\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.dll
+E:\SVN\u3ddemo_ilr\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.pdb
+E:\SVN\u3ddemo_ilr\HotFix_Project\obj\Release\HotFix_Project.csprojResolveAssemblyReference.cache
+E:\SVN\u3ddemo_ilr\HotFix_Project\obj\Release\HotFix_Project.dll
+E:\SVN\u3ddemo_ilr\HotFix_Project\obj\Release\HotFix_Project.pdb
+E:\SVN\ILRuntimeU3D\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.dll
+E:\SVN\ILRuntimeU3D\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.pdb
+E:\SVN\ILRuntimeU3D\HotFix_Project\obj\Release\HotFix_Project.csprojResolveAssemblyReference.cache
+E:\SVN\ILRuntimeU3D\HotFix_Project\obj\Release\HotFix_Project.dll
+E:\SVN\ILRuntimeU3D\HotFix_Project\obj\Release\HotFix_Project.pdb
+D:\work\ILRuntimeU3DDemo1.3\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.dll
+D:\work\ILRuntimeU3DDemo1.3\ILRuntimeDemo\Assets\StreamingAssets\HotFix_Project.pdb
+D:\work\ILRuntimeU3DDemo1.3\HotFix_Project\obj\Release\HotFix_Project.csprojResolveAssemblyReference.cache
+D:\work\ILRuntimeU3DDemo1.3\HotFix_Project\obj\Release\HotFix_Project.dll
+D:\work\ILRuntimeU3DDemo1.3\HotFix_Project\obj\Release\HotFix_Project.pdb
