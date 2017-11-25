@@ -2053,11 +2053,15 @@ namespace Spine.Unity.Editor {
             path = path.Replace(".png", "");
             path = path.Replace(".atlas", "");
             path = path.Replace(".prefab", "");
+            path = path.Replace(".bytes", "");
+            path = path.Replace(".skel", "");
 
             selectName = selectName.Replace(".json", "");
             selectName = selectName.Replace(".atlas", "");
             selectName = selectName.Replace(".png", "");
             selectName = selectName.Replace(".prefab", "");
+            selectName = selectName.Replace(".bytes", "");
+            selectName = selectName.Replace(".skel", "");
 
             string dirName = path;
             string spineFileName = selectName;
@@ -2066,7 +2070,7 @@ namespace Spine.Unity.Editor {
 
 
             string textureName = dirName + spineFileName + ".png";
-            string jsonFileName = dirName + spineFileName + ".json.txt";
+            string jsonFileName = dirName + spineFileName + ".skel.bytes";
             string atlasFileName = dirName + spineFileName + ".atlas.txt";
 
 
