@@ -13,11 +13,12 @@ public class CreateSpineAni : MonoBehaviour
     public TextAsset jsonText;
     public int MeshSortingOrder;
     public string DefaultAnimationName = "idle";
-
     public Vector3 SpineScale = Vector3.one;
 
     public bool IsLoaded;
-
+    public bool IsLoop;
+    public delegate void OnLoadCompleted(GameObject go);
+    public OnLoadCompleted onLoadCompleted;
     MeshRenderer meshRenderer;
     int oldMesRendererSortingOrder;
 
@@ -47,12 +48,12 @@ public class CreateSpineAni : MonoBehaviour
         dataAsset.toAnimation = new string[0];
         dataAsset.duration = new float[0];
         dataAsset.defaultMix = 0.2f;
-        dataAsset.scale = 1.0f;
+        dataAsset.scale = 0.01f;
 
         GameObject obj = gameObject;
         SkeletonAnimation anim = obj.GetComponent<SkeletonAnimation>();
-       
-        if(null == anim)
+
+        if (null == anim)
             anim = obj.AddComponent<SkeletonAnimation>();
 
         meshRenderer = obj.GetComponent<MeshRenderer>();
@@ -68,7 +69,7 @@ public class CreateSpineAni : MonoBehaviour
         anim.initialSkinName = "default";
 
         //anim.Reset();
-        anim.loop = true;
+        anim.loop = IsLoop;
         anim.AnimationName = DefaultAnimationName;
 
         //anim.state.Complete += OnCompleteSpineAnim;
@@ -84,14 +85,21 @@ public class CreateSpineAni : MonoBehaviour
 
         //    childrens[i].gameObject.layer = LayerMask.NameToLayer("UI");
         //}
-
-         anim.Awake();
+        
+        anim.Awake();
 
         //gameObject.SetActive(true);
 
         IsLoaded = true;
+        if(anim.state != null)
+            anim.state.Complete += OnAni_Complete;
     }
-
+    /// <summary>动画播放完事件</summary>
+    private void OnAni_Complete(TrackEntry trackEntry)
+    {
+        if (onLoadCompleted != null)
+            onLoadCompleted(this.gameObject);
+    }
     public void Update()
     {
         //gameObject.SetActive(true);

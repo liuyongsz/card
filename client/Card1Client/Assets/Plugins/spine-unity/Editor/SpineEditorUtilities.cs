@@ -591,111 +591,124 @@ namespace Spine.Unity.Editor {
 		}
 
 		public static void ImportSpineContent (string[] imported, bool reimport = false) {
-			var atlasPaths = new List<string>();
-			var imagePaths = new List<string>();
-			var skeletonPaths = new List<string>();
+//            var atlasPaths = new List<string>();
+//            var imagePaths = new List<string>();
+//            var skeletonPaths = new List<string>();
 
-			foreach (string str in imported) {
-				string extension = Path.GetExtension(str).ToLower();
-				switch (extension) {
-				case ".txt":
-					if (str.EndsWith(".atlas.txt", System.StringComparison.Ordinal))
-						atlasPaths.Add(str);
-					break;
-				case ".png":
-				case ".jpg":
-					imagePaths.Add(str);
-					break;
-				case ".json":
-					var jsonAsset = (TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset));
-					if (jsonAsset != null && IsSpineData(jsonAsset))
-						skeletonPaths.Add(str);
-					break;
-				case ".bytes":
-					if (str.ToLower().EndsWith(".skel.bytes", System.StringComparison.Ordinal)) {
-						if (IsSpineData((TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset))))
-							skeletonPaths.Add(str);
-					}
-					break;
-				}
-			}
-				
-			// Import atlases first.
-			var atlases = new List<AtlasAsset>();
-			foreach (string ap in atlasPaths) {
-				TextAsset atlasText = (TextAsset)AssetDatabase.LoadAssetAtPath(ap, typeof(TextAsset));
-				AtlasAsset atlas = IngestSpineAtlas(atlasText);
-				atlases.Add(atlas);
-			}
+//            foreach (string str in imported)
+//            {
+//                string extension = Path.GetExtension(str).ToLower();
+//                switch (extension)
+//                {
+//                    case ".txt":
+//                        if (str.EndsWith(".atlas.txt", System.StringComparison.Ordinal))
+//                            atlasPaths.Add(str);
+//                        break;
+//                    case ".png":
+//                    case ".jpg":
+//                        imagePaths.Add(str);
+//                        break;
+//                    case ".json":
+//                        var jsonAsset = (TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset));
+//                        if (jsonAsset != null && IsSpineData(jsonAsset))
+//                            skeletonPaths.Add(str);
+//                        break;
+//                    case ".bytes":
+//                        if (str.ToLower().EndsWith(".skel.bytes", System.StringComparison.Ordinal))
+//                        {
+//                            if (IsSpineData((TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset))))
+//                                skeletonPaths.Add(str);
+//                        }
+//                        break;
+//                }
+//            }
 
-			// Import skeletons and match them with atlases.
-			bool abortSkeletonImport = false;
-			foreach (string sp in skeletonPaths) {
-				if (!reimport && CheckForValidSkeletonData(sp)) {
-					ReloadSkeletonData(sp);
-					continue;
-				}
+//            // Import atlases first.
+//            var atlases = new List<AtlasAsset>();
+//            foreach (string ap in atlasPaths)
+//            {
+//                TextAsset atlasText = (TextAsset)AssetDatabase.LoadAssetAtPath(ap, typeof(TextAsset));
+//                AtlasAsset atlas = IngestSpineAtlas(atlasText);
+//                atlases.Add(atlas);
+//            }
 
-				string dir = Path.GetDirectoryName(sp);
+//            // Import skeletons and match them with atlases.
+//            bool abortSkeletonImport = false;
+//            foreach (string sp in skeletonPaths)
+//            {
+//                if (!reimport && CheckForValidSkeletonData(sp))
+//                {
+//                    ReloadSkeletonData(sp);
+//                    continue;
+//                }
 
-				#if SPINE_TK2D
-				IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, null);
-				#else
-				var localAtlases = FindAtlasesAtPath(dir);
-				var requiredPaths = GetRequiredAtlasRegions(sp);
-				var atlasMatch = GetMatchingAtlas(requiredPaths, localAtlases);
-				if (atlasMatch != null || requiredPaths.Count == 0) {
-					IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, atlasMatch);
-				} else {
-					bool resolved = false;
-					while (!resolved) {
+//                string dir = Path.GetDirectoryName(sp);
 
-						var filename = Path.GetFileNameWithoutExtension(sp);
-						int result = EditorUtility.DisplayDialogComplex(
-							string.Format("AtlasAsset for \"{0}\"", filename),
-							string.Format("Could not automatically set the AtlasAsset for \"{0}\". You may set it manually.", filename),
-							"Choose AtlasAssets...", "Skip this", "Stop importing all"
-						);
+//#if SPINE_TK2D
+//				IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, null);
+//#else
+//                var localAtlases = FindAtlasesAtPath(dir);
+//                var requiredPaths = GetRequiredAtlasRegions(sp);
+//                var atlasMatch = GetMatchingAtlas(requiredPaths, localAtlases);
+//                if (atlasMatch != null || requiredPaths.Count == 0)
+//                {
+//                    IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, atlasMatch);
+//                }
+//                else
+//                {
+//                    bool resolved = false;
+//                    while (!resolved)
+//                    {
 
-						switch (result) {
-						case -1:
-							//Debug.Log("Select Atlas");
-							AtlasAsset selectedAtlas = GetAtlasDialog(Path.GetDirectoryName(sp));
-							if (selectedAtlas != null) {
-								localAtlases.Clear();
-								localAtlases.Add(selectedAtlas);
-								atlasMatch = GetMatchingAtlas(requiredPaths, localAtlases);
-								if (atlasMatch != null) {
-									resolved = true;
-									IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, atlasMatch);
-								}
-							}
-							break;
-						case 0: // Choose AtlasAssets...
-							var atlasList = MultiAtlasDialog(requiredPaths, Path.GetDirectoryName(sp), Path.GetFileNameWithoutExtension(sp));
-							if (atlasList != null)
-								IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, atlasList.ToArray());
+//                        var filename = Path.GetFileNameWithoutExtension(sp);
+//                        int result = EditorUtility.DisplayDialogComplex(
+//                            string.Format("AtlasAsset for \"{0}\"", filename),
+//                            string.Format("Could not automatically set the AtlasAsset for \"{0}\". You may set it manually.", filename),
+//                            "Choose AtlasAssets...", "Skip this", "Stop importing all"
+//                        );
 
-							resolved = true;
-							break;
-						case 1: // Skip
-							Debug.Log("Skipped importing: " + Path.GetFileName(sp));
-							resolved = true;
-							break;
-						case 2: // Stop importing all
-							abortSkeletonImport = true;
-							resolved = true;
-							break;
-						}
-					}
-				}
+//                        switch (result)
+//                        {
+//                            case -1:
+//                                //Debug.Log("Select Atlas");
+//                                AtlasAsset selectedAtlas = GetAtlasDialog(Path.GetDirectoryName(sp));
+//                                if (selectedAtlas != null)
+//                                {
+//                                    localAtlases.Clear();
+//                                    localAtlases.Add(selectedAtlas);
+//                                    atlasMatch = GetMatchingAtlas(requiredPaths, localAtlases);
+//                                    if (atlasMatch != null)
+//                                    {
+//                                        resolved = true;
+//                                        IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, atlasMatch);
+//                                    }
+//                                }
+//                                break;
+//                            case 0: // Choose AtlasAssets...
+//                                var atlasList = MultiAtlasDialog(requiredPaths, Path.GetDirectoryName(sp), Path.GetFileNameWithoutExtension(sp));
+//                                if (atlasList != null)
+//                                    IngestSpineProject(AssetDatabase.LoadAssetAtPath(sp, typeof(TextAsset)) as TextAsset, atlasList.ToArray());
 
-				if (abortSkeletonImport)
-					break;
-				#endif
-			}
-			// Any post processing of images
-		}
+//                                resolved = true;
+//                                break;
+//                            case 1: // Skip
+//                                Debug.Log("Skipped importing: " + Path.GetFileName(sp));
+//                                resolved = true;
+//                                break;
+//                            case 2: // Stop importing all
+//                                abortSkeletonImport = true;
+//                                resolved = true;
+//                                break;
+//                        }
+//                    }
+//                }
+
+//                if (abortSkeletonImport)
+//                    break;
+//#endif
+//            }
+            // Any post processing of images
+        }
 
 		static void ReloadSkeletonData (string skeletonJSONPath) {
 			string dir = Path.GetDirectoryName(skeletonJSONPath);
